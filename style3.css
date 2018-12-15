@@ -1,0 +1,1163 @@
+@charset "UTF-8";
+.row{
+	margin: 0;
+}
+.pages{
+	padding:0;
+}
+
+a[href^=tel]{ color:#000; text-decoration:none;}
+
+
+/* CSS Document */
+
+/************nav bar
+            <div class="row py-4 d-flex align-items-center ">
+
+
+
+                <!--Grid column-->
+                <div class="col-md-6 col-lg-7 text-center text-md-right lilfoot">
+                    <!--Facebook-->
+
+                    
+
+                    
+                    <!--Twitter-->
+   
+                    <!--Google +-->
+
+                    <!--Linkedin-->
+                    <a class="li-ic socialicons">
+                        <i class="fa fa-linkedin white-text mr-lg-4"> </i>
+                    </a>
+                    <!--Instagram-->
+                    <a class="ins-ic socialicons">
+                        <i class="fa fa-instagram white-text mr-lg-4"> </i>
+                    </a>
+                </div>
+                <!--Grid column-->
+
+            </div>
+         
+      ****/
+
+/*PARALLAX EFFECT
+1.HTML
+<div class="content">
+	<div class="parallax-bg">
+		<h1> hello </hello>
+	</div>
+
+</div>
+
+2.CSS
+	.PARRALAX-BG{
+		PADDING: 300PX 0;
+		BACKGROUND-IMAGE:
+		background-size: cover;
+		background-attatchemt: fixed;
+		-webkit-transition: all 0.2s ease;
+		-moz-transition: all 0.2s ease;
+		transition: all 0.2s ease;
+
+
+	}
+	
+3.JQUERY
+
+	(funciton(){
+		var documentEl= $(document);
+		parralaxBg= $('div.parallax-bg');
+		
+		documentel.on('scroll', function(){
+			var currScrollPos = documentEl.scrollTop();
+			parralaxBg.css('background-position', '0 ' + -currScrollPoss/4 + 'px');
+		});
+	})();
+
+
+
+*/
+
+/*
+         	<div class =" col-lg-12 bg-success pays" id="lookgood">
+            	<img src="pngs/lookgood.png" id="img-responisve"  />
+            </div>
+            
+            <div class =" col-lg-12 bg-success pays smallpays" id="smallpays">
+
+                <img src="pngs/small/lookgood.png" />
+            	
+     		
+            </div>
+        <div class="row" >
+
+      		    <div class="col-xs-3" >
+                <img src="pngs/starholder.png" class= "img-responsive" />
+ 
+                
+            	</div> <!--col-lg-12-->
+                
+      		    <div class="col-xs-3" >
+                <img src="pngs/starholder.png" class= "img-responsive" />
+ 
+                
+            	</div> <!--col-lg-12-->
+
+
+      		    <div class="col-xs-3" >
+                <img src="pngs/starholder.png" class= "img-responsive" />
+ 
+                
+            	</div> <!--col-lg-12-->
+
+
+      		    <div class="col-xs-3" >
+                <img src="pngs/starholder.png" class= "img-responsive" />
+ 
+                
+            	</div> <!--col-lg-12-->
+
+
+      		    <div class="col-xs-3" >
+                <img src="pngs/starholder.png" class= "img-responsive" />
+ 
+                
+            	</div> <!--col-lg-12-->
+
+
+       	 </div><!--row-->
+*/
+
+
+
+
+	
+	.navbar{
+		background-color: black;
+		width: 100%;
+		border-radius: 0;
+		border: none;
+		position: fixed;
+		z-index: 1000;
+
+	}
+	
+	.pages{
+		
+		height: auto%;
+		width: 100%;
+		
+
+	}
+	
+	.pageone{
+	background-image:url(pngs/bg_pleather.png);
+	background-size: cover;	
+	border-bottom: 2px solid #d8bf89;
+	
+
+	
+	
+	
+	
+}
+
+	
+/*	   #home h1{
+		font-size: 4em;
+		margin-bottom: 20%;
+
+		
+		
+	}
+	#home p{
+		font-size: 4em;
+	
+	
+	}
+	
+*/
+	
+
+	.logo1{
+	padding-top: 20%;
+	
+	
+}
+
+	 .logo{
+		 margin: auto;
+	 }
+	 
+	 
+.starholders{
+	width: 80%;
+}
+	 
+	 
+	 
+	.text-center{
+		margin-top: 2%;
+		margin-bottom: 2%;
+	}
+	 
+
+
+
+
+#page1info h3{
+	text-align: left;
+	color: #d8bf89;
+	font-family: Fjalla One;
+	font-size: 1.3em;
+	
+}
+
+#page1info{
+	margin-top: 40%;
+}
+
+/* modified */
+
+
+.subinfo{
+	display: block;
+}
+
+
+
+/*********PAGE2 (meet the stars)********/
+
+
+	/*
+	MIGHT NEED THIS FOR WIDER MEDIA WIDTH
+	#page2 h1, #page4 h1 {
+		margin-top: 0;
+		padding: 2.5% 0;
+		
+	 font-size: 70px;
+		
+		
+	}
+*/
+
+
+	.onethird h1{
+		margin-top: 0;
+		font-size: 3em;
+		padding: 10% 0;
+		font-family: anton;
+	    text-align: center;
+		color: #b3b3b3;   /*#e7e7e7; #d8bf89; #d2ae7e;*/
+
+		
+		
+	}
+	
+	.onethird{
+		
+		height: auto;
+		padding: 5% 0;
+		
+	
+		
+	}
+		.onethird{
+		background-image:url(pngs/bg_specks.png);
+		background-size: cover;
+		
+		height: auto;
+		padding: 1% 0;
+		
+		
+	
+		
+	}
+	 				/*this is really second head*/
+
+	.thirdhead{
+		border-bottom: 2px solid #d8bf89;
+	}
+	
+	 .nopad{
+	 padding: 0;
+	 
+	/*THIS TAKES AWAY PADDING FROM BARBER IMAGES*/
+ }
+ 
+  .images{
+	 padding: 0;
+	 
+	
+ }
+
+
+ .nopadding{
+	border: 1px black solid;
+}
+
+ 
+/********page 3 about section******/
+ 
+ /*.lilcon{
+	 background-image:url(pngs/lightbulb.png);
+	 background-repeat: repeat-x;
+	 background-size: 20%;
+ .welcome{ 
+	 
+	margin-left: 50px;
+	padding-top: 60px;
+	
+}
+
+ .welcome p{
+	font-size: 55px;
+	font-family: anton;
+	
+}
+ }*/
+ 
+ 
+/*	#page3{
+		width: auto;
+		height: auto;
+	
+	}
+*/	
+
+	#about .images{
+		border: 1px #b3b3b3 solid;
+
+
+	}
+
+
+
+	.text{
+		background-image:url(pngs/bg_white_pleather.png);
+		background-size: cover;
+		
+	}
+	
+
+	.topcuts{
+		display: none;
+	}
+	
+	#welcome p{
+		font-size: 3em;
+		text-align: center;
+		line-height: 1.3em;
+		margin-top: 8%;
+		font-family: anton;
+		color: #d8bf89;
+		
+		
+	}
+	
+
+	#memo p{
+		font-size: 1.3em;
+		/*padding-left: 30px;
+		padding-right: 30px;
+		margin-bottom: 1.3em;
+		margin-top: 1em;*/
+		width: 75%;
+		margin: auto;
+		text-align: center;
+		margin-bottom: 8%;
+		 
+		color:  black; /*#d2ae7e;*/
+		
+		
+	}
+	
+	#memo{
+		padding: 0;
+	}
+	
+	
+/*********PAGE4(pricing)********/
+	
+
+/*.col3{
+	height: auto;
+	background-image: none;
+	
+	
+	
+}*/
+
+.fourthhead{
+	
+
+}
+
+
+
+ #services{
+	 background-image:url(pngs/bg_marb.png);
+	 background-size: cover;
+
+	 border-bottom: 2px solid #d8bf89;
+	 border-top: 2px solid #d8bf89;
+
+
+ }
+ 
+ 
+.groupie{
+	text-align: center;
+	border-bottom: 1px solid white;
+	Width: 60%;
+	margin: auto;
+    font-family:Fjalla One;
+	color:white;/* d2ae7e;*/
+
+
+	
+}
+
+.money{
+	margin-top: 0;
+	margin-bottom: 20px;
+	color: #d8bf89;
+	
+}
+
+.last{
+	border-bottom: none;
+}
+
+/********page 5 Oppotunites*****/
+ 
+ #work{
+	 background-image:url(pngs/bg_chair_bw.png);
+	 background-size: cover;
+	 color: #dedcdc;
+	 border-bottom: 2px solid #d8bf89; 
+
+	 
+	 
+ }
+
+ 
+ .benefits,
+ {
+	 text-transform:uppercase;
+ }
+ 
+ .opportunities h1 {
+	 font-size: 2em;
+	 text-align: center;
+	 margin-top: 3%;
+	 text-transform: uppercase;
+	 
+
+	 
+	 
+ }
+ 
+ .benefits{
+	 font-size: 2em;
+	 line-height:1em;
+	 
+	 
+ }
+ 
+ .perks{
+	 margin-top: 3%;
+ }
+ 
+ .pointers{
+	 font-size: 1.2em;
+	 font-weight: bold;
+	 
+ }
+ 
+ .busy{
+	 font-size: 1.2em;
+	 letter-spacing:1px;
+	 
+ }
+ 
+ .jobmemo{
+	 padding-top: 3%;
+	 width: 80%;
+	 margin: auto;
+	 text-align: center;
+	 color: #d8bf89;
+ }
+ 
+  .opportunities h2 {
+	 font-size: 1.4em;
+	 text-align: center;
+ }
+ 
+  .jobinfo p {
+	 text-align: center;
+	 width: 90%;
+	 margin: auto;
+	 
+ }
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+
+
+
+form{
+	width: 80%;
+	margin:  auto;
+	
+}
+
+.lilform{
+	padding-bottom: 10%;
+}
+
+label{
+	color: #d8bf89;
+}
+
+ 
+ input[type=email],
+ label,
+ textarea{
+	 display: block;
+ }
+ 
+ #firstname, #lastname{
+	 width: 48%;
+ }
+ 
+ input#lastname{
+	 margin-left: 2%;
+ }
+ 
+ input#email{
+	 width: 99%;
+ }
+ 
+ input#phone{
+	 width: 48%;
+ }
+ label{
+	 margin-top: 3%;
+ }
+ textarea{
+	 width: 99%;
+	 margin-top: 3%;
+	 margin-bottom: 10%;
+ }
+
+ form{
+	color: black;
+ }
+
+ .btn{
+	 background: #d8bf89;
+ }
+ 
+
+ 
+ 	
+ /********page 6 looks good*****/
+ 
+ #page6{
+	 background-image:url(pngs/bg_pleather.png);
+	 background-size: cover;
+	 border-bottom: 2px solid #d8bf89;
+	 
+
+	 
+	
+ }
+ 
+ .goood{
+	 
+	 margin: 40% auto;
+ }
+
+ 
+
+
+ 
+/*   #smallpays{
+	 width: auto;
+	 display: block;
+	 padding-bottom: 5%
+	 
+	 
+	 
+ }
+ 
+#smallpays img{
+	max-width: 500px;
+	 margin: auto;
+ 
+ #tryout{
+	 width: 98%;
+	 display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+ 
+ #lookgood{
+	 display: none;
+ }*/
+
+ 
+ 
+ /********Footer*****/
+ 
+ /* footer{
+	 background-image:url(pngs/bg_white_pleather.png);
+	 background-size: cover;	
+	 
+ }
+  */
+ 
+ .socialicons {
+	font-size: 1.7em;
+	padding-right: 1%;
+	
+}
+
+.fa {
+	color: #d8bf89; 
+}
+
+.copyright{
+	color: #d8bf89;
+}
+
+.lilfoot{
+	margin-bottom: 2%;
+}
+
+
+
+@media (min-width: 768px){
+	
+	 /********PAGE1*****/
+	 
+	 #page1info h3{
+	font-size: 2em;
+}
+	 
+	 .logo1{
+		 padding-top: 10%;
+		
+	 }
+	 
+	 	/* .text-center{
+		margin-top: 10%;
+		margin-bottom: 5%;
+	}
+	  */
+	 
+
+	 /********PAGE2*****/
+	 .onethird h1{
+		
+		font-size: 5em;
+		padding: 2.5% 0;
+			
+	}
+/* 
+	.nopadding{
+		border: 1px #d8bf89 solid;
+	}
+	 */
+	
+	
+
+	
+	 /********PAGE3*****/
+	
+	
+	
+	
+	
+	#welcome p{
+		font-size: 4.9em;
+		
+
+		
+		
+	}
+	
+
+	#memo p{
+		font-size: 1.8em;
+	
+	
+	
+		
+	}
+
+	/********PAGE4-PRICING*****/
+
+	.groupie h3{
+	font-size: 2em;
+	
+}
+
+
+	/********PAGE5-form*****/
+
+.opportunities h1 {
+	
+	 margin-top: 3%;
+	 
+	 
+ }
+ 
+  .jobinputs{
+	 width: 50%;
+	 padding-left: 5%;
+	 margin-top: 10px;
+	 margin-bottom: 3%;
+ }
+ 
+ /****form****/
+ 
+ .opportunities h1 {
+	 font-size: 2.8em;
+	 text-align: center;
+	
+	 
+	 
+ }
+ 
+ .benefits{
+	 font-size: 2.5em;
+ }
+ 
+ .pointers{
+	 font-size: 1.4em;
+	 letter-spacing: 1px;
+	 text-transform: uppercase;
+		
+ }
+ 
+ .busy{
+	 font-size: 1.4em;
+	 letter-spacing:1px;
+ }
+ 
+ #call{
+	 font-size: 1.4em;
+	 font-weight: bold;
+	 letter-spacing: 1px;
+ }
+ 
+  .opportunities h2 {
+	 font-size: 1.9em;
+	 text-align: center;
+	 
+ }
+
+	
+ 
+/*  .jobinfo{
+	width:50%;
+	
+	font-size: 1.2em;
+	padding-left: 10%;
+	margin-top: 10px;
+	line-height:2em;
+	
+ }*/
+ 
+/*   .jobinfo{
+
+	
+	----font-size: 1.2em;-----
+	text-align: center;
+	
+	line-height:2em;
+	
+ }
+ 
+ .jobinfo p {
+	 font-size: 1.1em;
+ }
+ 
+ .benefits{
+	 font-size: 1.4em;
+ }
+ 
+ .pointers{
+	 font-size: 1.4em;
+ }*/
+ 
+
+ input{
+	width: 200px;
+	height: 50px;
+}
+.formlabels{
+	display: block;
+
+}
+
+textarea{
+	display: block;
+	margin-top: 20px;
+	
+}
+
+
+
+	
+	
+	
+	
+	
+	/********Looks good*****/
+	
+ #pays{
+	 width: 100%;
+	 display: inline-block;
+	 
+ }
+ 
+
+ 
+  #smallpays{
+	display: none;
+	 
+	 
+	 
+ }
+ 
+ #lookgood{
+	 display: block;
+	 height: auto;
+ }
+ 
+ #lookgood img{
+	 max-width: 100%;
+	 padding-top: 6%;
+	 
+	 
+ }
+ 
+ #lookgood{
+	 padding-bottom: 10%;
+ }
+ 
+	
+	
+}
+
+
+@media (min-width: 992px){
+	
+	/****PAGE ONE*****/
+		#top{
+	
+	
+	background-attachment:fixed;
+			-webkit-transition: all 0.2s ease;
+		-moz-transition: all 0.2s ease;
+		transition: all 0.2s ease;
+	
+	
+	
+	
+}
+	#page1info h3{
+	text-align: center;
+
+	font-size: 2em;
+}
+
+#page1info{
+	margin-top: 12%;
+}
+
+
+
+
+	
+
+	/****PAGE 3*****/
+	
+	
+	.secondhead{
+		border-bottom: 2px solid whie;
+		/* background-attachment: fixed; */
+	}
+
+	
+	.topcuts{
+		display: block;
+	}
+	
+	
+	
+
+	
+	
+	
+	 .welcome{ 
+ 	width: auto;
+	 
+	
+	margin-left: 17%;
+	/*margin-top: 45px;*/
+	
+}
+	
+	
+	#welcome p{
+		font-size: 2.8em;
+		text-align: left;
+		/*margin-top: 60px;*/
+		margin-top: 50px;
+		
+		
+
+		
+		
+	}
+	
+
+	#memo p{
+		font-size: 1.2em;
+		text-align: left;
+		/*margin-top: 110px;*/
+		margin-left:4%;
+		padding-left: 5%;
+		border-left: 2px solid white;
+		margin-top: 50px;
+		
+	
+		
+	}
+	
+	.lineup{
+		border-bottom: none;
+		
+	}
+	
+	  /* .jobinfo p {
+	 text-align: center;
+	 width: %;
+	 margin: auto;
+	 
+ }
+  */
+ /*******PRICES*******/
+  #services{
+
+	 background-attachment:fixed;
+
+
+ }
+
+ /*******WORK*******/
+ 
+ 
+  #work{
+	
+	 background-attachment:fixed;
+	 background-size: cover;
+
+	 
+	 
+ }
+ 
+ 
+ /*******LOOKSGOOD*******/
+
+ #page6{
+	 background-attachment:fixed;
+	 height: auto;
+
+	 
+
+	 
+	
+ }
+ 
+  .goood{
+	 
+	 margin: 12% auto;
+ }
+
+  
+  
+
+
+
+ 
+	
+	
+
+	
+	
+	
+	
+}
+
+@media (min-width: 1200px){
+	
+/****page 3****/	
+		 .welcome{ 
+ 	
+	 
+	
+	margin-left: 12%;
+	/*margin-top: 45px;*/
+	
+}
+	
+	
+	
+	
+		#welcome p{
+		font-size: 4.3em;
+		margin-top: 50px;
+		margin-bottom: 50px;
+		
+
+		
+		
+	}
+	
+
+	#memo p{
+		font-size: 1.6em;
+		margin-top: 50px;
+		margin-bottom: 50px;
+	
+	
+		
+	}
+	
+	
+/****form****/	
+
+ 
+ .opportunities h1 {
+	 font-size: 3em;
+	 text-align: center;
+
+	 margin-bottom: 3%;
+	 
+	 
+ }
+ 
+ .lilform,
+ .jobinfo{
+	 margin-bottom: 5%;
+	 
+ }
+ 
+ .jobmemo{
+	 text-align: left;
+	 margin: 0;
+ }
+ 
+ .jobinfo{
+	 margin-top: 0;
+ }
+ 
+  .opportunities h2 {
+	 font-size: 1.5em;
+	 text-align: left;
+ }
+ 
+  .jobinfo p{
+	 text-align: left;
+	 margin: 0;
+	
+	 
+ }
+
+ 
+ form{
+	width: 90%;
+	
+}
+
+  .jobinfo{
+	
+	
+	
+	padding-left: 5%;
+	margin-top: 10px;
+ }
+ 
+  .jobinfo p{
+	 
+	 width: 90%;
+	 
+	 
+ }
+
+.busy{
+	font-size: 1.1em;
+	border-top: 2px solid white;
+	border-bottom: 2px solid white;
+	padding: 2% 0;
+	
+
+}
+ 
+	
+	
+	
+}
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+	
+	
+
+
+
+

@@ -1,0 +1,770 @@
+@charset "UTF-8";
+/* CSS Document 
+  font-size: 20vw; ( 20% of the viewport width
+
+
+*/
+
+
+
+
+
+
+
+
+
+.navbar{
+		background-color: black;
+		width: 100%;
+		border-radius: 0;
+		border: none;
+		position: fixed;
+		z-index: 1000;
+
+	}
+	
+	/*background-image: url(pngs/pg1_bg.png);
+	background-size: cover;*/
+#page1{
+	background-image:url(pngs/stripes_BG.png);
+	background-size: cover;	
+	
+	
+}
+
+#page1 h3{
+	font-family: anton;
+	line-height: 30px;
+	
+}
+
+.phone{
+	text-decoration: none;
+}
+
+
+	
+
+.logo {
+	
+	margin: auto;
+	
+}
+
+.logo1{
+	margin-top: 10%;
+}
+
+#page1info h3{
+	text-align: center;
+	color: #716c69;
+	font-family: Fjalla One;
+}
+
+.force-to-bottom {
+ margin-top: 30px;
+	
+}
+
+.subinfo{
+	display: block;
+}
+	
+	.pages{
+		
+		height: auto;
+		width: 100%;
+		
+
+	}
+	
+	
+	
+	
+	
+  #firstlogo {
+		text-align:center;
+		font-size: 70px;
+		background-color: white;
+		text-transform: uppercase;
+		size: 100px;
+		/*border-radius: 50%;*/
+		margin: auto;
+		margin-top: 25%;
+
+		
+		
+	}
+	
+	.page1{
+		color: white;
+		margin-top: 13%;
+	}
+	
+ .appointment{
+	 text-align: center;
+	 font-size: 35px;
+	 font-style: italic;
+ }
+ 
+ .col-lg-2  p {
+	 text-align: center;
+ }
+ 
+
+ 
+ /********PAGE2*******/
+ 
+/*.onethird{
+	
+	height: auto;
+	background-color: black;
+	
+}*/
+ .row h1{
+
+ }
+
+
+
+	#page2 h1, #page4 h1 {
+		margin-top: 0;
+		padding: 2.5% 0;
+		font-family: anton;
+	 text-align: center;
+	 font-style: italic;
+	 font-size: 70px;
+		
+		
+	}
+
+	
+
+		
+	
+	.onethird{
+		background-image:url(pngs/charcoal_subtle_big.png);
+		background-size: cover;
+		height: auto;
+		padding: 2.5% 0;
+		
+	
+		
+	}
+ 
+ .nopad{
+	 padding: 0;
+ }
+ 
+ .images{
+	 padding: 0;
+	 
+	
+ }
+ 
+
+ 
+/* .barbers h1{
+	 padding-top: 125px;
+ }*/
+ 
+ /********page 3 about section******/
+ 
+ /*.lilcon{
+	 background-image:url(pngs/lightbulb.png);
+	 background-repeat: repeat-x;
+	 background-size: 20%;
+ }*/
+ 
+
+ .welcome{ 
+ 	width: auto;
+	 
+	height:400px;
+	margin-left: 50px;
+	padding-top: 60px;
+	
+}
+
+ .welcome p{
+	font-size: 55px;
+	font-family: anton;
+	
+}
+
+ .text{
+	 height: auto;
+	 border-bottom: 2px solid black;
+	 
+	 
+	 
+ }
+
+ 
+ #memo{
+	 font-size: 25px;
+	 padding-top: 35px;
+
+
+	 
+	 
+ }
+ 
+ 
+ 
+
+ 
+  #welcome{
+	
+	 text-transform: uppercase;
+	 text-align: left;
+	 
+	 
+	
+	 
+ }
+ 
+ #first{
+	 font-size: 50px;
+	 letter-spacing: 11px;
+	 
+ }
+  #second{
+	 font-size: 55px;
+	 letter-spacing: 14px;
+	 
+ }
+ 
+   #third{
+	 font-size: 55px;
+	 letter-spacing: 22px;
+	 
+ }
+ 
+
+ 
+ #description{
+	 font-size: 1.7em;
+	 text-align: left;
+	 padding-top: 10px;
+	 line-height: 40px;
+	 
+	
+	 
+	 
+	 
+	
+	 
+ }
+ 
+ #grid{
+	 width: 99%;
+	 height: 99%;
+ }
+ 
+
+ 
+ .about img{
+	width: 200px;
+	 height: 228px;
+	 margin-top: 15px;
+	 margin-right: 15px;
+	 padding-right: 0px;
+	 
+	 
+	 
+ }
+ 
+ .images img{
+	 margin: auto;
+ }
+ 
+ 
+
+ 
+ /*div.about{
+	 padding-top: 30px;
+ }*/
+ 
+ 
+ 
+ /********page 5 Pricing******/
+ 
+ #page4{
+	 background-image:url(pngs/cracked_white_bg.png); 
+	 background-size: cover;
+	 background-position: center;
+	
+ }
+ 
+ .pricehead{
+		height: auto;
+		padding: 5% 0;
+		background: url(pngs/charcoal_subtle_big.png);
+		font-family: Lobster;
+}
+
+	
+
+.groupie{
+	text-align: center;
+	border-bottom: 1px solid gray;
+	Width: 60%;
+	margin: auto;
+    font-family:Fjalla One;
+
+	
+}
+
+.money{
+	margin-top: 0;
+	margin-bottom: 20px;
+	
+}
+
+.last{
+	border-bottom: none;
+}
+ 
+/*.pricegroup img{
+	width: 200px;
+	 y-index:-1;
+	 display: none;
+}*/
+
+
+
+
+
+ #page4{
+	width: 100%;
+	
+	border-bottom: 2px solid black;
+	
+}
+
+.wholeprice{
+
+}
+	
+
+.pricetitle, .newprice{
+	font-size: 20px;
+ 	position:relative;
+	margin-right: auto;
+	margin-left:auto;
+}
+
+
+
+.newprice{
+	position: absolute;
+	right: 50%;
+}
+.priceheads h3{
+	text-align: center;
+	
+	
+	
+}
+
+.priceheads{
+	margin-top: 5%;
+}
+
+
+
+ 
+
+
+.ribbon img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+.table2 td{
+	width: 201px;
+}
+
+
+
+/*#table{
+	max-width: 300px;
+	margin: auto;
+}*
+
+ 
+
+		/*	 <h3>Haircut</h3><!--1-->
+             <h3>ShavE</h3><!--2-->
+             <h3>Lineup</h3><!--3-->
+             <h3>Haircut</h3><!--4-->
+             <h3>Kids</h3><!--5-->
+             <h3>Beard Trim</h3><!--6-->
+             <h3>Eybrow wax</h3><!--7-->
+             <h3>steam and towel</h3><!--8-->
+             <h3>Black Mask</h3><!--9-->
+             
+             <div class="newprices">
+              <h3>$10</h3><!--1-->
+             <h3>$15</h3><!--2-->
+             <h3>$10</h3><!--3-->
+             <h3>$20</h3><!--4-->
+             <h3>15</h3><!--5-->
+             <h3>$15</h3><!--6-->
+             <h3>$10</h3><!--7-->
+             <h3>$12</h3><!--8-->
+             <h3>$13</h3><!--9-->
+             </div>			 
+			 */
+ 
+ /********page 5 Oppotunites*****/
+ 
+ #page5{
+	 background-image:url(pngs/cracked_black_bg.png);
+	 background-size: cover;
+	 color: #dedcdc;
+	 font-family: Fjalla One;
+	 
+ }
+ 
+ .opportunities h1 {
+	 font-size: 35px;
+	 text-align: center;
+	 
+	 
+ }
+ 
+  .opportunities h2 {
+	 font-size: 23px;
+	 text-align: center;
+ }
+ 
+ .jobinputs{
+	 width: 50%;
+	 padding-left: 5%;
+	 margin-top: 10px;
+	 margin-bottom: 10px;
+ }
+ 
+  .jobinfo{
+	width: 600px;
+	height: 425px;
+	font-size: 20px;
+	padding-left: 10%;
+	margin-top: 10px;
+ }
+ 		 /********forms****/
+		 
+input{
+	width: 200px;
+	height: 50px;
+}
+.formlabels{
+	display: block;
+
+}
+
+
+
+textarea{
+	display: block;
+	margin-top: 20px;
+	
+}
+
+	/*<input name="firstname" id="firstname" type="text" Placeholder="FIRST" required >
+                <input name="lastname" id="lastname" type="text" Placeholder="LAST" required >
+				*/
+
+ 
+
+ 
+ /********footer*****/
+ /*footer{
+	 background-color: black;
+	 height: 50px;
+	
+	}*/
+	
+.socialicons {
+	font-size: 2em;
+	padding-right: 2%;
+}
+
+.fa {
+	color: #686b6a;
+}
+
+
+	
+	
+ /********page 6 looks good*****/
+ 
+ .pays{
+	 background-image:url(pngs/stripes_BG.png);
+	 height: 400px
+	
+ }
+ 
+ #pays{
+	 width:100%;
+ }
+ 
+  #smallpays{
+	 display: none;
+ }
+ 
+ 
+	
+	
+	
+	
+	
+	
+	@media (max-width: 900px){
+		
+		.logo1{
+	margin-top: 20%;
+}
+			.pages{
+		
+		height: auto;
+		width: 100%;
+		
+
+	}
+	
+	   #page1 h1{
+		font-size: 3em;
+
+		
+		
+	}
+	
+	#page1info{
+		margin-bottom: 15%;
+	}
+	#page1 p{
+		font-size: 1.5em;
+	
+	
+}
+
+/*********PAGE2 (meet the stars)********/
+
+
+	#page2 h1{
+		margin-top: 0;
+		font-size: 2.8em;
+		padding: 10% 0;
+		
+		
+	}
+	
+	.onethird{
+		
+		height: auto;
+		padding: 5% 0;
+		
+	
+		
+	}
+	
+	
+
+/*********PAGE3 (welcome to the barberstarrs)********/
+
+
+	#page3{
+		width: auto;
+		height: auto;
+	}
+	
+	.text{
+		height: 400px;
+		padding: 1% 1%;
+	}
+
+	.topcuts{
+		display: none;
+	}
+	
+	#welcome p{
+		font-size: 3em;
+		text-align: center;
+		line-height: 1.3em;
+		margin-top: 5%;
+	}
+	
+	.welcome{
+		width: auto;
+		height: auto;
+		padding: 0;
+		Margin: auto;
+		
+	}
+	#memo p{
+		font-size: .7em;
+		padding-left: 30px;
+		padding-right: 30px;
+		margin-bottom: 1.3em;
+		margin-top: 1em;
+		text-align: center;
+		
+		
+	}
+	
+	#memo{
+		padding: 0;
+	}
+	
+	.width768 img{
+		width: 50%;
+		height: 50%;
+	}
+	
+	
+	
+	
+/*********PAGE4(pricing)********/
+	
+
+/*.col3{
+	height: auto;
+	background-image: none;
+	
+	
+	
+}*/
+
+.page4{
+	background-color: white;
+}
+
+ #page4{
+	width: auto;
+	height: auto;
+	border-bottom: 2px solid black;
+	border-top: 2px solid black;
+	
+}
+
+.pricehead{
+		height: auto;
+		padding: 5% 0;
+		background: url(pngs/charcoal_subtle_big.png);
+		font-family: Lobster;
+}
+
+#page4 h1{
+		margin-top: 0;
+		font-size: 3.5em;
+		padding: 10% 0;
+}
+
+.col3group{
+	padding: 0;
+}
+
+.pricegroup{
+	max-width: 300px;
+	margin: auto;
+}
+
+.wholeprice{
+	margin-bottom:15%;
+}
+
+
+
+
+
+/*********PAGE4(opportunitys)********/
+
+ .jobinfo{
+	width: auto;
+	height: auto;
+	font-size: 20px;
+	padding-left: 10%;
+	margin-top: 10px;
+ }
+ 
+ .jobinfo p, li{
+	 padding-right: 10%;
+	 padding-top: 3%;
+ }
+ 
+ 
+ 
+ 
+ textarea {
+  width: 300px;
+  height: 150px;
+}
+
+.jobinputs{
+	 width: 300px;
+	 margin-bottom: 20px;
+ }
+ 
+textarea{
+	width: 300px;
+	margin-bottom: 20px;
+	
+}
+
+
+/*********PAGE6(pays to look good)********/
+
+
+
+.pays{
+	 background-image:
+	 height: 300px
+	
+ }
+ 
+ #pays{
+	 display: none; 
+ }
+ 
+ #smallpays{
+	 width: 100%;
+	 display: block;
+	 padding-bottom: 5%
+	 
+	 
+	 
+ }
+
+
+
+
+	
+	
+	
+
+
+}
+
+
+
+	
+	
+	
+	
+	
+		
+	
+	
+	
+	
+	
+	
+	
+
+ 
+ 
+
