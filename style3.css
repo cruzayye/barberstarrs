@@ -1,4 +1,9 @@
 @charset "UTF-8";
+
+ .fa-mobile-alt {
+	color: #d8bf89;
+	font-size: 1.4em;
+}
 .row{
 	margin: 0;
 }
@@ -6,7 +11,12 @@
 	padding:0;
 }
 
-a[href^=tel]{ color:#000; text-decoration:none;}
+a[href^=tel]{ color:#d8bf89; text-decoration:none;}
+
+.subinfo{
+	margin-top: .2em;
+}
+
 
 
 /* CSS Document */
@@ -454,6 +464,7 @@ a[href^=tel]{ color:#000; text-decoration:none;}
 	 text-align: center;
 	 margin-top: 3%;
 	 text-transform: uppercase;
+	 color: #d8bf89;
 	 
 
 	 
@@ -1049,7 +1060,7 @@ textarea{
 	
 /****form****/	
 
- 
+
  .opportunities h1 {
 	 font-size: 3em;
 	 text-align: center;

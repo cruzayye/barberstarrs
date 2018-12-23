@@ -2,15 +2,6 @@
 
 //parralax scroll effect
 	
-	
-
-
-
-
-
-
-
-
 //button scroll
 
 $(document).on('click', 'a[href^="#"]', function(event){

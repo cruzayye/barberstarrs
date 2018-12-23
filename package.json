@@ -1,0 +1,22 @@
+{
+  "name": "barberstarrs",
+  "version": "1.0.0",
+  "description": "sever for barberstarrs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cruzayye/barberstarrs.git"
+  },
+  "author": "johnny cruz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cruzayye/barberstarrs/issues"
+  },
+  "homepage": "https://github.com/cruzayye/barberstarrs#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
