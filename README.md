@@ -1,2 +1,0 @@
-# barberstarrs
-page for barber
