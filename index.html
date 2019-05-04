@@ -1,450 +1,514 @@
 <!DOCTYPE html>
-<html lang="en"><head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="format-detection" content="telephone=no" />
-        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-        <title>Barberstarrs practice</title>
-    
-        <!-- Bootstrap -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-        <link href="style3.css" rel="stylesheet" type="text/css">
-        <link href="https://fonts.googleapis.com/css?family=Anton|Fjalla+One|Lobster" rel="stylesheet">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
-        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    </head>
-    
-    <body>
-        <nav class="navbar navbar-default">
-            <div class="container">
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="#top">BarberStarrs</a>
-                </div>
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li class="nav-link scroll"><a href="#top">Home</a></li>
-                        <li class="nav-link scroll"><a href="#barbers">Barbers</a></li>
-                        <li class="nav-link scroll"><a href="#about">About</a></li>
-                        <li class="nav-link scroll"><a href="#services">Services</a></li>
-                        <li class="nav-link scroll"><a href="#work">Work</a></li>
-                    </ul>
-                </div><!-- /.navbar-collapse -->
-            </div><!-- /.container-fluid -->
-        </nav>
-    
-        <div class="container pages pageone parallax-bg " id="top">
-            <div class="row">
-                <div class="col-lg-12 logo1">
-                    <img src="pngs/logo_gold.png" class="img-responsive logo">
-                </div>
-                <!--col-lg-12-->
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="format-detection" content="telephone=no" />
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Barberstarrs practice</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="current.css" rel="stylesheet" type="text/css">
+    <link href="./css/gallery.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Anton|Fjalla+One|Lobster" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/lightbox.min.css">
+    <script type = "text/javascript" src="./scripts/lightbox-plus-jquery.min.js"></script>
+
+
+    <style>
+            #mapContainer {
+                    height: 100%;  
+                }
+                html, body {
+                    height: 100%;
+                    margin: 0;
+                    padding: 0;
+                }
+
+        #map {
+            height: 50%;
+            width: 75%;
+            margin: auto;
+            margin-top: 20%;
+        }
+
+
+        
+     </style>
+
+
+</head>
+
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+                    aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#top">BarberStarrs</a>
             </div>
-            <!--row-->
-    
-            <div class="row text-center" id="page1info">
-                <div class="col-xs-12 col-lg-4 col-md-4 ">
-                    <h3><a href ="tel:971-444-0642">(971) 444-0642
-                    
-                     <i class="fas fa-mobile-alt"></i>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="nav-link scroll"><a href="#top">Home</a></li>
+                    <li class="nav-link scroll"><a href="#barbers">Barbers</a></li>
+                    <li class="nav-link scroll"><a href="#about">About</a></li>
+                    <li class="nav-link scroll"><a href="#services">Services</a></li>
+                    <li class="nav-link scroll"><a href="#work">Work</a></li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+
+    <div class="container pages pageone parallax-bg " id="top">
+        <div class="row">
+            <div class="col-lg-12 logo1">
+                <img src="pngs/logo_gold.png" class="img-responsive logo">
+            </div>
+            <!--col-lg-12-->
+        </div>
+        <!--row-->
+
+        <div class="row text-center" id="page1info">
+            <div class="col-xs-12 col-lg-4 col-md-4 ">
+                <h3><a href="tel:971-444-0642">(971) 444-0642
+
+                        <i class="fas fa-mobile-alt"></i>
                     </a>
                     <span class="subinfo phone">
-                    Book your apptointment!
-                  </span> 
-                    </h3> 
-                    <!-- <h3>Book your apptointment:<span class="subinfo phone">(971) 444-0642</span> </h3> -->
-    
-                </div>
-                <!--col-xs-12 col-lg-4-->
-    
-                <div class="col-xs-12 col-lg-4 col-md-4 ">
-                    <a class="link" href="https://www.google.com/maps/place/105+N+Main+Ave,+Gresham,+OR+97030/@45.4985096,-122.4334058,17z/data=!3m1!4b1!4m5!3m4!1s0x549598f379d20135:0x33f3c5b0d002ac2a!8m2!3d45.4985059!4d-122.4312171">
-                        <h3>105 North Main Avenue in <span class="subinfo">Gresham, Oregon 97030</span> </h3>
-                    </a>
-                </div>
-                <!--col-xs-12 col-lg-4-->
-    
-                <div class="col-xs-12 col-md-4 col-lg-4">
-                    <h3>Teusday-Saturday <span class="subinfo">Hours 10:00AM - 7:00PM</span></h3>
-    
-                </div>
-                <!--col-xs-12 col-lg-4-->
-    
-    
+                        Book your apptointment!
+                    </span>
+                </h3>
+                <!-- <h3>Book your apptointment:<span class="subinfo phone">(971) 444-0642</span> </h3> -->
+
             </div>
-            <!--row-->
+            <!--col-xs-12 col-lg-4-->
+
+            <div class="col-xs-12 col-lg-4 col-md-4 ">
+                <a class="link" href="https://www.google.com/maps/place/105+N+Main+Ave,+Gresham,+OR+97030/@45.4985096,-122.4334058,17z/data=!3m1!4b1!4m5!3m4!1s0x549598f379d20135:0x33f3c5b0d002ac2a!8m2!3d45.4985059!4d-122.4312171">
+                    <h3>105 North Main Avenue in <span class="subinfo">Gresham, Oregon 97030</span> </h3>
+                </a>
+            </div>
+            <!--col-xs-12 col-lg-4-->
+
+            <div class="col-xs-12 col-md-4 col-lg-4">
+                <h3>Teusday-Saturday <span class="subinfo">Hours 10:00AM - 7:00PM</span></h3>
+
+            </div>
+            <!--col-xs-12 col-lg-4-->
+
 
         </div>
-        <section class="" id="barbers">
-            <div class="row barbers">
-                <div class=" col-lg-12  onethird secondhead" id="onethird">
-                    <h1> The Starrs </h1>
-                </div>
-            </div>
-    
-            <div class="row barbers">
-                <div class="col-md-3 col-xs-6 nopadding bg-warning nopad">
-                    <img src="psd files/barbers/finished/barber1.jpg" class="img-responsive">
-                </div>
-                <div class="col-md-3 col-xs-6 nopadding bg-warning nopad">
-                    <img src="psd files/barbers/finished/barber2.jpg" class="img-responsive">
-                </div>
-                <div class="col-md-3 col-xs-6 nopadding bg-warning nopad">
-                    <img src="psd files/barbers/finished/barber3.jpg" class="img-responsive">
-                </div>
-                <div class="col-md-3 col-xs-6 nopadding bg-warning nopad">
-                    <img src="psd files/barbers/finished/barber4.jpg" class="img-responsive">
-                </div>
-                <div class="col-md-3 col-xs-6 nopadding bg-warning nopad">
-                    <img src="psd files/barbers/finished/barber5.jpg" class="img-responsive">
-                </div>
-                <div class="col-md-3 col-xs-6 nopadding bg-warning nopad">
-                    <img src="psd files/barbers/finished/barber6.jpg" class="img-responsive">
-                </div>
-                <div class="col-md-3 col-xs-6 nopadding bg-warning nopad">
-                    <img src="psd files/barbers/finished/barber7.jpg" class="img-responsive">
-                </div>
-                <div class="col-md-3 col-xs-6 nopadding bg-warning nopad">
-                    <img src="psd files/barbers/finished/barber8.jpg" class="img-responsive">
-                </div>
-    
-            </div>
-    
-            <div class="row barbers">
-                <div class=" col-lg-12  onethird thirdhead">
-                    <h1> The Best In the West </h1>
-                </div>
-            </div>
-        </section>
+        <!--row-->
 
-        <section class="container pages" id="about">
-            <div class="row barbers haircuts topcuts ">
-                <div class="col-md-2 images">
-    
-                    <img src="pngs/aboutpics/t1.png" class="img-responsive">
-                </div>
-                <!--2-->
-    
-                <div class="col-md-2 images">
-    
-                    <img src="pngs/aboutpics/t2.png" class="img-responsive">
-                </div>
-                <!--2-->
-    
-                <div class="col-md-2 images">
-    
-                    <img src="pngs/aboutpics/t3.png" class="img-responsive">
-                </div>
-                <!--2-->
-    
-                <div class="col-md-2 images">
-    
-                    <img src="pngs/aboutpics/t4.png" class="img-responsive">
-                </div>
-                <!--2-->
-    
-                <div class="col-md-2 images">
-    
-                    <img src="pngs/aboutpics/t5.png" class="img-responsive">
-                </div>
-                <!--2-->
-    
-                <div class="col-md-2 images">
-    
-                    <img src="pngs/aboutpics/b2.png" class="img-responsive">
-                </div>
-                <!--2-->
-            </div>
-            <!--row-->
-    
-            <!--text-->
-            <div class="row barbers text ">
-    
-                <div class="col-md-6 col-sm-12 welcome " id="welcome">
-                    <p>WELCOME TO THE<br> BARBERSTARRS<br> BARBERSHOP </p>
-
-                </div>
-                <!--2-->
-    
-                <div class="col-md-6 col-sm-12  " id="memo">
-    
-                    <p id="memo">&#8203;We offer our clients a wide range of services from straight razor shaving, hair
-                        styling, beard grooming, eyebrow trimming and more. Our barbershop gives men the opportunity to
-                        have their hair treated by professionals that know men's hair. </p>
-                </div>
-                <!--2-->
-            </div>
-            <!--row-->
-            <!----bottom images-->
-            <div class="row barbers haircuts bottomcuts">
-                <div class="col-md-2 col-xs-6 images">
-    
-                    <img src="pngs/aboutpics/b1.png" class="img-responsive">
-                </div>
-                <!--2-->
-    
-                <div class="col-md-2 col-xs-6 images">
-    
-                    <img src="pngs/aboutpics/t6.png" class="img-responsive">
-                </div>
-                <!--2-->
-    
-                <div class="col-md-2 col-xs-6 images">
-    
-                    <img src="pngs/aboutpics/b3.png" class="img-responsive">
-                </div>
-                <!--2-->
-    
-                <div class="col-md-2 col-xs-6 images">
-    
-                    <img src="pngs/aboutpics/b4.png" class="img-responsive">
-                </div>
-                <!--2-->
-    
-                <div class="col-md-2 col-xs-6 images">
-    
-                    <img src="pngs/aboutpics/b5.png" class="img-responsive">
-                </div>
-                <!--2-->
-    
-                <div class="col-md-2 col-xs-6 images">
-    
-                    <img src="pngs/aboutpics/b6.png" class="img-responsive">
-                </div>
-                <!--2-->
-            </div>
-            <!--row-->
-        </section>
-        <section class="container page4 pages " id="services">
-    
-            <div class="row pricing">
-                <!--<p>pricing</p>-->
-    
-                <div class="col-sm-12 onethird fourthhead">
-                    <h1>Services</h1>
-                </div>
-            </div>
-            <!--row-->
-    
-    
-            <div class="row pricing">
-            </div>
-            <!--row-->
-            <div class="row pricing">
-                <div class="col-sm-12 col-md-6 ">
-                    <div class="groupie">
-                        <h3>REGULAR CUTS</h3>
-                        <h3 class="money">$25.00 </h3>
-                    </div>
-    
-                    <div class="groupie">
-                        <h3>HOT TOWEL AND SHAVE </h3>
-                        <h3 class="money">$30.00 </h3>
-                    </div>
-    
-                    <div class="groupie">
-                        <h3>KIDS CUTS (10 AND UNDER) </h3>
-                        <h3 class="money">$20.00 </h3>
-                    </div>
-    
-                    <div class="groupie">
-                        <h3>MILITARY (WITH ID) </h3>
-                        <h3 class="money">$20.00 </h3>
-                    </div>
-    
-    
-                    <div class="groupie">
-                        <h3>SENIOR </h3>
-                        <h3 class="money">$18.00 </h3>
-                    </div>
-    
-                    <div class="groupie lineup">
-                        <h3>LINE UP </h3>
-                        <h3 class="money">$13.00 </h3>
-                    </div>
-                </div>
-                <!--col-sm-12 pricehead-->
-
-                <div class="col-sm-12 table2 col-md-6 " id="">
-    
-                    <div class="groupie">
-                        <h3>DESIGNS</h3>
-                        <h3 class="money">$10.00 &amp; UP</h3>
-                    </div>
-    
-                    <div class="groupie">
-                        <h3>EYEBROW ARCH </h3>
-                        <h3 class="money">$7.00 </h3>
-                    </div>
-    
-                    <div class="groupie">
-                        <h3>BLACK ICE </h3>
-                        <h3 class="money">$7.00 </h3>
-                    </div>
-    
-                    <div class="groupie">
-                        <h3>BIGEN (BEARD &amp; HAIR) </h3>
-                        <h3 class="money">$35.00 </h3>
-                    </div>
-    
-    
-                    <div class="groupie">
-                        <h3>BLACK MASK</h3>
-                        <h3 class="money">$25.00 </h3>
-                    </div>
-    
-                    <div class="groupie last">
-                        <h3>RIGHT NOW PRICE </h3>
-                        <h3 class="money last">$100.00 </h3>
-                    </div>
-    
-                </div>
-                <!--col-sm-12 pricehead-->
-
-            </div>
-            <!--row-->
-    
-        </section>
-    
-        <!-- Page 5 JOB OPPORTUNITY -->
-        <section class="container pages" id="work">
-    
-            <div class="row pricing">
-                <!--<p>pricing</p>-->
-    
-                <div class="col-sm-12 onethird fifthhead">
-                    <h1>work</h1>
-                </div>
-            </div>
-            <!--row-->
-            <div class="row opportunities">
-    
-                <div class=" col-sm-12 experienced">
-                    <h1 class="">
-    
-                        Experienced Barber? <br>
-                        We're Hiring!
-                    </h1>
-                </div>
-    
-                <div class="col-lg-6 col-sm-12  jobinfo">
-                    <p class="benefits"> Benefits of working with us:</p>
-    
-                    <div class="perks">
-                            <p class="pointers">* $250 sign on bonus after 3 month trial period </p>
-                    </div>
-                    <div class="jobmemo">
-                        Busy barbershop located in downtown Gresham. We are an 8 chair barbershop looking to add 2 fulltime
-                        barbers to our crew. Must be proficient in taper fades, bald fades, blow outs, straight razor
-                        shaves and line ups. We have a huge clientele base and cut all types of hair so you must be
-                        comfortable with cutting all hair types.
-                        <p></p>
-    
-                    </div>
-                    <h2 id="call">
-                        <span class="call">CALL (971) 444-0642</span> <span class="or">OR</span> FILL OUT THE FORM
-    
-                    </h2>
-                </div>
-                <form action="mailto:johnnyc010392@gmail.com" method="post" enctype="text/plain">
-                    <div class="col-lg-6 col-xs-12 lilform">
-                        <!--NAME-->
-                        <label for="firstname" class="formlabels">Name*</label>
-                        <input name="firstname" id="firstname" type="text" placeholder="FIRST" required="">
-                        <input name="lastname" id="lastname" type="text" placeholder="LAST" required="">
-                        <!--EMAIL-->
-                        <label for="email" class="formlabels">Email*</label>
-                        <input id="email" name="Email" type="email" required="">
-    
-                        <!--Number-->
-                        <label for="phone" class="formlabels">Phone*</label>
-                        <input id="phone" name="phone" type="tel" required="">
-    
-                        <label for="textarea" class="formlabels">About*</label>
-                        <textarea name="textarea" rows="5" cols="50"> </textarea>
-                        <input type="submit" value="Send" class="btn btn-default button">
-                    </div>
-                </form>
-    
-    
-            </div>
-    
-        </section>
-
-        <section id ="map">
-
-        </section>
-    
-    
-        <!---------------------------END--------------------------->
-    
-        <div class="container pages" id="page6">
-            <div class="row">
-                <div class="col-lg-12 typeography ">
-                    <img src="pngs/looksgood2.png" class="img-responsive goood">
-    
-    
-                </div>
-                <!--col-lg-12-->
+    </div>
+    <section class="" id="barbers">
+        <div class="row barbers">
+            <div class=" col-lg-12  onethird secondhead" id="onethird">
+                <h1> The Starrs </h1>
             </div>
         </div>
-        <!---------------------------NEW FOOTER--------------------------->
-    
-        <footer class="page-footer font-small onethird ">
-                <div>
-                        <div class="container">
-                            <!--Grid row-->
-                            <div class="row py-4 d-flex align-items-center ">
-                
-                                <!--Grid column-->
-                                <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0 ">
-                                    <h6 class="mb-0 copyright">COPYRIGHT 2015. ALL RIGHTS RESERVED</h6>
-                                </div>
 
-                                <div class="col-md-6 col-lg-7 text-center text-md-right lilfoot">
-                                    <!--Facebook-->
-                                    <a href="https://www.facebook.com/BarberStarrs/" class="fb-ic ml-0 socialicons">
-                                        <i class="fa fa-facebook white-text mr-lg-4"> </i>
-                                    </a>
-                
-                                    <!--Yelp-->
-                                    <a href="https://www.yelp.com/search?find_desc=barber+starrs&amp;find_loc=Gresham%2C+OR+97080" class="ins-ic socialicons">
-                                        <i class="fa fa-yelp white-text mr-lg-4"> </i>
+        <div class="row">
+            <div class="col-md-3 col-xs-6 nopadding bg-warning nopad barbers">
+                <img src="psd files/barbers/finished/anthony.jpg" class="img-responsive">
+                <p class="barberName">Anthony</p>
+            </div>
+            <div class="col-md-3 col-xs-6 nopadding bg-warning nopad barbers">
+                <img src="psd files/barbers/finished/barber2.jpg" class="img-responsive">
+                <p class="barberName">Phil</p>
+            </div>
+            <div class="col-md-3 col-xs-6 nopadding bg-warning nopad barbers">
+                <img src="psd files/barbers/finished/Alain.jpg" class="img-responsive">
+                <p class="barberName">Alain</p>
+            </div>
+            <div class="col-md-3 col-xs-6 nopadding bg-warning nopad barbers">
+                <img src="psd files/barbers/finished/maiTai.jpg" class="img-responsive">
+                <p class="barberName">Mai Tai</p>
+            </div>
+            <div class="col-md-3 col-xs-6 nopadding bg-warning nopad barbers">
+                <img src="psd files/barbers/finished/carlos.jpg" class="img-responsive">
+                <p class="barberName">Carlos</p>
+            </div>
+            <div class="col-md-3 col-xs-6 nopadding bg-warning nopad barbers">
+                <img src="psd files/barbers/finished/barber4.jpg" class="img-responsive">
+                <p class="barberName">Jesse</p>
+            </div>
+            <div class="col-md-3 col-xs-6 nopadding bg-warning nopad barbers">
+                <img src="psd files/barbers/finished/barber7.jpg" class="img-responsive">
+                <p class="barberName">Josh</p>
+            </div>
+            <div class="col-md-3 col-xs-6 nopadding bg-warning nopad barbers">
+                <img src="psd files/barbers/finished/barber8.jpg" class="img-responsive">
+                <p class="barberName">Noah</p>
+            </div>
 
-                                    </a><a href="https://www.instagram.com/barberstarrceo/" class="ins-ic socialicons">
-                                        <i class="fa fa-instagram white-text mr-lg-4"> </i>
-                                    </a>
-                                </div>
-                                <!--Grid column-->
+        </div>
+
+        <div class="row barbers">
+            <div class=" col-lg-12  onethird thirdhead">
+                <h1> The Best In the West </h1>
+            </div>
+        </div>
+    </section>
+
+    <section class="container pages" id="about">
+        <div class="row barbers haircuts topcuts ">
+            <div class="col-md-2 images">
                 
-                            </div>
-                            <!--Grid row-->
-                        </div>
+                <a href="pngs/aboutpics/t1.png" data-lightbox = "cutGallery"><img src="pngs/aboutpics/t1.png" class="img-responsive"></a>
+            </div>
+            <!--2-->
+
+            <div class="col-md-2 images">
+
+                <a href="pngs/aboutpics/t2.png" data-lightbox = "cutGallery"><img src="pngs/aboutpics/t2.png" class="img-responsive"></a>
+            </div>
+            <!--2-->
+
+            <div class="col-md-2 images">
+
+                <a href="pngs/aboutpics/t3.png" data-lightbox = "cutGallery"><img src="pngs/aboutpics/t3.png" class="img-responsive"></a>
+            </div>
+            <!--2-->
+
+            <div class="col-md-2 images">
+
+                <a href="pngs/aboutpics/t4.png" data-lightbox = "cutGallery"><img src="pngs/aboutpics/t4.png" class="img-responsive"></a>
+            </div>
+            <!--2-->
+
+            <div class="col-md-2 images">
+
+                <a href="pngs/aboutpics/t5.png" data-lightbox = "cutGallery"><img src="pngs/aboutpics/t5.png" class="img-responsive"></a>
+            </div>
+            <!--2-->
+
+            <div class="col-md-2 images">
+
+                <a href="pngs/aboutpics/b2.png" data-lightbox = "cutGallery"><img src="pngs/aboutpics/b2.png" class="img-responsive"></a>
+            </div>
+            <!--2-->
+        </div>
+        <!--row-->
+
+        <!--text-->
+        <div class="row barbers text ">
+
+            <div class="col-md-6 col-sm-12 welcome " id="welcome">
+                <p>WELCOME TO THE<br> BARBERSTARRS<br> BARBERSHOP </p>
+
+            </div>
+            <!--2-->
+
+            <div class="col-md-6 col-sm-12  " id="memo">
+
+                <p id="memo">&#8203;We offer our clients a wide range of services from straight razor shaving, hair
+                    styling, beard grooming, eyebrow trimming and more. Our barbershop gives men the opportunity to
+                    have their hair treated by professionals that know men's hair. </p>
+            </div>
+            <!--2-->
+        </div>
+        <!--row-->
+        <!----bottom images-->
+        <div class="row barbers haircuts bottomcuts">
+            <div class="col-md-2 col-xs-6 images">
+
+                <a href="pngs/aboutpics/b1.png" data-lightbox = "cutGallery"><img src="pngs/aboutpics/b1.png" class="img-responsive"></a>
+            </div>
+            <!--2-->
+
+            <div class="col-md-2 col-xs-6 images">
+
+                <a href="pngs/aboutpics/t6.png" data-lightbox = "cutGallery"><img src="pngs/aboutpics/t6.png" class="img-responsive"></a>
+            </div>
+            <!--2-->
+
+            <div class="col-md-2 col-xs-6 images">
+
+                <a href="pngs/aboutpics/b3.png" data-lightbox = "cutGallery"><img src="pngs/aboutpics/b3.png" class="img-responsive"></a>
+            </div>
+            <!--2-->
+
+            <div class="col-md-2 col-xs-6 images">
+
+                <a href="pngs/aboutpics/b4.png" data-lightbox = "cutGallery"><img src="pngs/aboutpics/b4.png" class="img-responsive"></a>
+            </div>
+            <!--2-->
+
+            <div class="col-md-2 col-xs-6 images">
+
+                <a href="pngs/aboutpics/b5.png" data-lightbox = "cutGallery"><img src="pngs/aboutpics/b5.png" class="img-responsive"></a>
+            </div>
+            <!--2-->
+
+            <div class="col-md-2 col-xs-6 images">
+
+                <a href="pngs/aboutpics/b6.png" data-lightbox = "mygallery"><img src="pngs/aboutpics/b6.png" class="img-responsive"></a>
+            </div>
+            <!--2-->
+        </div>
+        <!--row-->
+    </section>
+    <section class="container page4 pages " id="services">
+
+        <div class="row pricing">
+            <!--<p>pricing</p>-->
+
+            <div class="col-sm-12 onethird fourthhead">
+                <h1>Services</h1>
+            </div>
+        </div>
+        <!--row-->
+
+
+        <div class="row pricing">
+        </div>
+        <!--row-->
+        <div class="row pricing">
+            <div class="col-sm-12 col-md-6 ">
+                <div class="groupie">
+                    <h3>REGULAR CUTS</h3>
+                    <h3 class="money">$25.00 </h3>
+                </div>
+
+                <div class="groupie">
+                    <h3>HOT TOWEL AND SHAVE </h3>
+                    <h3 class="money">$30.00 </h3>
+                </div>
+
+                <div class="groupie">
+                    <h3>KIDS CUTS (10 AND UNDER) </h3>
+                    <h3 class="money">$20.00 </h3>
+                </div>
+
+                <div class="groupie">
+                    <h3>MILITARY (WITH ID) </h3>
+                    <h3 class="money">$20.00 </h3>
+                </div>
+
+
+                <div class="groupie">
+                    <h3>SENIOR </h3>
+                    <h3 class="money">$18.00 </h3>
+                </div>
+
+                <div class="groupie lineup">
+                    <h3>LINE UP </h3>
+                    <h3 class="money">$13.00 </h3>
+                </div>
+            </div>
+            <!--col-sm-12 pricehead-->
+
+            <div class="col-sm-12 table2 col-md-6 " id="">
+
+                <div class="groupie">
+                    <h3>DESIGNS</h3>
+                    <h3 class="money">$10.00 &amp; UP</h3>
+                </div>
+
+                <div class="groupie">
+                    <h3>EYEBROW ARCH </h3>
+                    <h3 class="money">$7.00 </h3>
+                </div>
+
+                <div class="groupie">
+                    <h3>BLACK ICE </h3>
+                    <h3 class="money">$7.00 </h3>
+                </div>
+
+                <div class="groupie">
+                    <h3>BIGEN (BEARD &amp; HAIR) </h3>
+                    <h3 class="money">$35.00 </h3>
+                </div>
+
+
+                <div class="groupie">
+                    <h3>BLACK MASK</h3>
+                    <h3 class="money">$25.00 </h3>
+                </div>
+
+                <div class="groupie last">
+                    <h3>RIGHT NOW PRICE </h3>
+                    <h3 class="money last">$100.00 </h3>
+                </div>
+
+            </div>
+            <!--col-sm-12 pricehead-->
+
+        </div>
+        <!--row-->
+
+    </section>
+
+    <!-- Page 5 JOB OPPORTUNITY -->
+    <section class="container pages" id="work">
+
+        <div class="row pricing">
+            <!--<p>pricing</p>-->
+
+            <div class="col-sm-12 onethird fifthhead">
+                <h1>work</h1>
+            </div>
+        </div>
+        <!--row-->
+        <div class="row opportunities">
+
+            <div class=" col-sm-12 experienced">
+                <h1 class="">
+
+                    Experienced Barber? <br>
+                    We're Hiring!
+                </h1>
+            </div>
+
+            <div class="col-lg-6 col-sm-12  jobinfo">
+                <p class="benefits"> Benefits of working with us:</p>
+
+                <div class="perks">
+                    <p class="pointers">* $250 sign on bonus after 3 month trial period </p>
+                </div>
+                <div class="jobmemo">
+                    Busy barbershop located in downtown Gresham. We are an 8 chair barbershop looking to add 2 fulltime
+                    barbers to our crew. Must be proficient in taper fades, bald fades, blow outs, straight razor
+                    shaves and line ups. We have a huge clientele base and cut all types of hair so you must be
+                    comfortable with cutting all hair types.
+                    <p></p>
+
+                </div>
+                <h2 id="call">
+                    <span class="call">CALL (971) 444-0642</span> <span class="or">OR</span> FILL OUT THE FORM
+
+                </h2>
+            </div>
+            <form action="mailto:johnnyc010392@gmail.com" method="post" enctype="text/plain">
+                <div class="col-lg-6 col-xs-12 lilform">
+                    <!--NAME-->
+                    <label for="firstname" class="formlabels">Name*</label>
+                    <input name="firstname" id="firstname" type="text" placeholder="FIRST" required="">
+                    <input name="lastname" id="lastname" type="text" placeholder="LAST" required="">
+                    <!--EMAIL-->
+                    <label for="email" class="formlabels">Email*</label>
+                    <input id="email" name="Email" type="email" required="">
+
+                    <!--Number-->
+                    <label for="phone" class="formlabels">Phone*</label>
+                    <input id="phone" name="phone" type="tel" required="">
+
+                    <label for="textarea" class="formlabels">About*</label>
+                    <textarea name="textarea" rows="5" cols="50"> </textarea>
+                    <input type="submit" value="Send" class="btn btn-default button">
+                </div>
+            </form>
+
+
+        </div>
+
+    </section>
+
+    <section id = "mapContainer">
+        <div id= "map">
+        </div>
+
+    </section>
+
+
+    <!---------------------------END--------------------------->
+
+    <div class="container pages" id="page6">
+        <div class="row">
+            <div class="col-lg-12 typeography ">
+                <img src="pngs/looksgood2.png" class="img-responsive goood">
+
+
+            </div>
+            <!--col-lg-12-->
+        </div>
+    </div>
+    <!---------------------------NEW FOOTER--------------------------->
+
+    <footer class="page-footer font-small onethird ">
+        <div>
+            <div class="container">
+                <!--Grid row-->
+                <div class="row py-4 d-flex align-items-center ">
+
+                    <!--Grid column-->
+                    <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0 ">
+                        <h6 class="mb-0 copyright">COPYRIGHT 2015. ALL RIGHTS RESERVED</h6>
                     </div>
-        </footer>    
-    </body>
-    
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="script.js"></script>
 
-    <script>
-        $("#bs-example-navbar-collapse-1").on('click', 'ul', function() {
-            $("#bs-example-navbar-collapse-1").toggleClass("in");
+                    <div class="col-md-6 col-lg-7 text-center text-md-right lilfoot">
+                        <!--Facebook-->
+                        <a href="https://www.facebook.com/BarberStarrs/" class="fb-ic ml-0 socialicons">
+                            <i class="fa fa-facebook white-text mr-lg-4"> </i>
+                        </a>
 
-        });
+                        <!--Yelp-->
+                        <a href="https://www.yelp.com/search?find_desc=barber+starrs&amp;find_loc=Gresham%2C+OR+97080"
+                            class="ins-ic socialicons">
+                            <i class="fa fa-yelp white-text mr-lg-4"> </i>
 
-        //before updates
-    
-    </script>
-    </html>
-    
+                        </a><a href="https://www.instagram.com/barberstarrceo/" class="ins-ic socialicons">
+                            <i class="fa fa-instagram white-text mr-lg-4"> </i>
+                        </a>
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+                <!--Grid row-->
+            </div>
+        </div>
+    </footer>
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+    $("#bs-example-navbar-collapse-1").on('click', 'ul', function () {
+        $("#bs-example-navbar-collapse-1").toggleClass("in");
+
+    });
+
+
+
+    function initMap() {
+        var map;
+        const barbershop = { lat: 45.498607, lng: -122.43122 }
+        var map = new google.maps.Map(
+      document.getElementById('map'), {zoom: 15, center: barbershop});
+        // map = new google.maps.Map(document.getElementById('map'), {
+        //     center: { lat: 45.536639, lng: -122.421636 },
+        //     zoom: 8
+        // });
+        var marker = new google.maps.Marker({position: barbershop, map: map});
+
+
+//         var marker = new google.maps.Marker({
+//     position: myLatLng,
+//     map: map,
+//     title: 'Hello World!'
+//   });
+    }
+
+
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBe48Rq5YpegRwCh4OvVTXz8y-jPHB_GCs&callback=initMap" ></script>
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="script.js"></script>
+<script src="./scripts/map.js"></script>
+
+</html>
