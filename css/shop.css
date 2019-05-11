@@ -1,0 +1,17 @@
+.shop {
+  height: 100vh;
+  background-image: url("../psd files/shop/mobileShopBg.jpg");
+  background-position: center;
+  background-size: cover; 
+}
+
+.fifthhead p{
+  text-align: center;
+  margin-top: -8%;
+}
+
+@media only screen and (min-width: 600px) {
+  .shop, .shopHead{
+    display: none;
+  }
+}

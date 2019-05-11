@@ -1,9 +1,9 @@
 @charset "UTF-8";
 
-// .barberDisplay p{
-// 	opacity: 1;
-// 	transition: 1.5s;
-// }
+.barberDisplay p{
+	opacity: 1;
+	transition: 1.5s;
+}
 
 .barberName{
 	position: absolute;
@@ -13,15 +13,15 @@
 	top: 0;
 	z-index: 10;
 	font-weight: bold;
-	opacity: 0;
+	opacity: 1;
 	width: 100%;
 	height: 100%;
 }
 
-.barberName:hover, .barberName:active {
-	opacity: 1;
-	transition: 1s;
-}
+// .barberName:hover, .barberName:active {
+// 	opacity: 1;
+// 	transition: 1s;
+// }
 
 
 .fa-mobile-alt {
@@ -616,49 +616,23 @@ label{
 	
  }
  
- .goood{
-	 
-	 margin: 40% auto;
+ .goood {
+	 display: grid;
+	 height: 50vh;
+	 justify-items:center;
+
  }
 
- 
+ .goodPic{
+	position: static;
+	width: 80%;
+	margin-top: 25vh;
 
+ }
 
- 
-/*   #smallpays{
-	 width: auto;
-	 display: block;
-	 padding-bottom: 5%
-	 
-	 
-	 
+ #typo {
  }
- 
-#smallpays img{
-	max-width: 500px;
-	 margin: auto;
- 
- #tryout{
-	 width: 98%;
-	 display: block;
-    margin-left: auto;
-    margin-right: auto;
- }
- 
- #lookgood{
-	 display: none;
- }*/
 
- 
- 
- /********Footer*****/
- 
- /* footer{
-	 background-image:url(pngs/bg_white_pleather.png);
-	 background-size: cover;	
-	 
- }
-  */
  
  .socialicons {
 	font-size: 1.7em;
@@ -681,6 +655,10 @@ label{
 
 
 @media (min-width: 768px){
+	.barberName{
+		opacity: 0;
+	}
+	
 	
 	 /********PAGE1*****/
 
@@ -826,6 +804,13 @@ textarea{
 	
 	
 	/********Looks good*****/
+	.goood {
+		height: 70vh;
+	}
+	.goodPic {
+		margin: 5vh 0;
+	}
+
 	
  #pays{
 	 width: 100%;
