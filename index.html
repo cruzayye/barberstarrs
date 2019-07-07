@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="format-detection" content="telephone=no" />
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Barberstarrs practice</title>
+    <title>Barberstarrs Barbershop</title>
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -18,8 +18,8 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP"
         crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="./css/lightbox.min.css">
-    <script type = "text/javascript" src="./scripts/lightbox-plus-jquery.min.js"></script>
+    <!-- <link rel="stylesheet" type="text/css" href="./css/lightbox.min.css"> -->
+    <!-- <script type = "text/javascript" src="./scripts/lightbox-plus-jquery.min.js"></script> -->
 
 
     <style>
@@ -38,7 +38,66 @@
             margin: auto;
             margin-top: 20%;
         }
+        .play{
+            font-size: 3rem;
+            text-align: center;
+            color: white;
+            background: red;
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            
+        }
 
+        #audio{
+            display: none;
+        }
+        
+        .button {
+            border: 0;
+            background: transparent;
+            box-sizing: border-box;
+            width: 0;
+            height: 74px;
+            border-color: transparent transparent transparent #202020;
+            transition: 100ms all ease;
+            cursor: pointer;
+            border-style: solid;
+            border-width: 37px 0 37px 60px;
+        }
+
+        .button.paused {
+            border-style: double;
+            border-width: 0px 0 0px 60px;
+        }
+
+        .button:focus {
+            outline: none;
+        }
+
+        button:hover {
+            border-color: transparent transparent transparent #404040;
+        }
+        /* @media only screen and (min-width: 700px) {
+            .play {
+                bottom: 0;
+                right: ;
+            }
+        } */
+
+
+
+        /* .button:hover {
+            border-color: transparent transparent transparent #404040;
+        } */
+
+
+
+        
+
+  
 
         
      </style>
@@ -77,12 +136,17 @@
         <div class="row">
             <div class="col-lg-12 logo1">
                 <img src="pngs/logo_gold.png" class="img-responsive logo">
+                <!-- <audio controls id="audio">
+                    <source src="./utils/music/04 X-Faded (Prod. by aPAULo).mp3" type="audio/mpeg">
+                  Your browser does not support the audio element.
+                  </audio> -->
             </div>
             <!--col-lg-12-->
         </div>
         <!--row-->
 
         <div class="row text-center" id="page1info">
+
             <div class="col-xs-12 col-lg-4 col-md-4 ">
                 <h3><a href="tel:971-444-0642">(971) 444-0642
 
@@ -106,8 +170,14 @@
 
             <div class="col-xs-12 col-md-4 col-lg-4">
                 <h3>Teusday-Saturday <span class="subinfo">Hours 10:00AM - 7:00PM</span></h3>
+                <!-- THIS IS THE PLAY BUTTON -->
+                <button class="button"></button>
 
+                <!-- <i class="fas fa-play-circle play"></i> -->
+                <!-- <i class="fas fa-pause play"></i> -->
+                <!-- <p id="play">play</p> -->
             </div>
+
             <!--col-xs-12 col-lg-4-->
 
 
@@ -119,37 +189,38 @@
         <div class="row barbers haircuts topcuts ">
             <div class="col-md-2 images">
                 
-                <a href="pngs/aboutpics/t1.png" data-lightbox = "cutGallery"><img src="pngs/aboutpics/t1.png" class="img-responsive"></a>
+                    <a href="pngs/aboutpics/updated_pics/bottom5.jpg" data-lightbox = "cutGallery"><img src="pngs/aboutpics/updated_pics/bottom5.jpg" class="img-responsive"></a>
             </div>
             <!--2-->
 
             <div class="col-md-2 images">
 
-                <a href="pngs/aboutpics/t2.png" data-lightbox = "cutGallery"><img src="pngs/aboutpics/t2.png" class="img-responsive"></a>
+                    <a href="pngs/aboutpics/updated_pics/top5.jpg" data-lightbox = "cutGallery"><img src="pngs/aboutpics/updated_pics/top5.jpg" class="img-responsive"></a>
             </div>
             <!--2-->
 
             <div class="col-md-2 images">
 
-                <a href="pngs/aboutpics/t3.png" data-lightbox = "cutGallery"><img src="pngs/aboutpics/t3.png" class="img-responsive"></a>
+                    <a href="pngs/aboutpics/updated_pics/top4.jpg" data-lightbox = "cutGallery"><img src="pngs/aboutpics/updated_pics/top4.jpg" class="img-responsive"></a>
             </div>
             <!--2-->
 
             <div class="col-md-2 images">
 
-                <a href="pngs/aboutpics/t4.png" data-lightbox = "cutGallery"><img src="pngs/aboutpics/t4.png" class="img-responsive"></a>
+                    <a href="pngs/aboutpics/updated_pics/top3.jpg" data-lightbox = "cutGallery"><img src="pngs/aboutpics/updated_pics/top3.jpg" class="img-responsive"></a>
             </div>
             <!--2-->
 
             <div class="col-md-2 images">
 
-                <a href="pngs/aboutpics/t5.png" data-lightbox = "cutGallery"><img src="pngs/aboutpics/t5.png" class="img-responsive"></a>
+                    <a href="pngs/aboutpics/updated_pics/top2.jpg" data-lightbox = "cutGallery"><img src="pngs/aboutpics/updated_pics/top2.jpg" class="img-responsive"></a>
             </div>
             <!--2-->
 
             <div class="col-md-2 images">
 
-                <a href="pngs/aboutpics/b2.png" data-lightbox = "cutGallery"><img src="pngs/aboutpics/b2.png" class="img-responsive"></a>
+                <!-- <a href="pngs/aboutpics/b2.png" data-lightbox = "cutGallery"><img src="pngs/aboutpics/b2.png" class="img-responsive"></a> -->
+                <a href="pngs/aboutpics/updated_pics/top1.jpg" data-lightbox = "cutGallery"><img src="pngs/aboutpics/updated_pics/top1.jpg" class="img-responsive"></a>
             </div>
             <!--2-->
         </div>
@@ -175,41 +246,37 @@
         <!--row-->
         <!----bottom images-->
         <div class="row barbers haircuts bottomcuts">
-            <div class="col-md-2 col-xs-6 images">
 
-                <a href="pngs/aboutpics/b1.png" data-lightbox = "cutGallery"><img src="pngs/aboutpics/b1.png" class="img-responsive"></a>
+            <!--2-->
+            <div class="col-md-2 col-xs-6 images">
+                    <a href="pngs/aboutpics/updated_pics/bottom6.jpg" data-lightbox = "cutGallery"><img src="pngs/aboutpics/updated_pics/bottom6.jpg" class="img-responsive"></a>
+            </div>
+
+            <div class="col-md-2 col-xs-6 images">
+                <a href="pngs/aboutpics/updated_pics/bottom2.jpg" data-lightbox = "cutGallery"><img src="pngs/aboutpics/updated_pics/bottom2.jpg" class="img-responsive"></a>
             </div>
             <!--2-->
 
             <div class="col-md-2 col-xs-6 images">
-
-                <a href="pngs/aboutpics/t6.png" data-lightbox = "cutGallery"><img src="pngs/aboutpics/t6.png" class="img-responsive"></a>
+                <a href="pngs/aboutpics/updated_pics/bottom3.jpg" data-lightbox = "cutGallery"><img src="pngs/aboutpics/updated_pics/bottom3.jpg" class="img-responsive"></a>
             </div>
             <!--2-->
 
             <div class="col-md-2 col-xs-6 images">
-
-                <a href="pngs/aboutpics/b3.png" data-lightbox = "cutGallery"><img src="pngs/aboutpics/b3.png" class="img-responsive"></a>
+                <a href="pngs/aboutpics/updated_pics/bottom4.jpg" data-lightbox = "cutGallery"><img src="pngs/aboutpics/updated_pics/bottom4.jpg" class="img-responsive"></a>
             </div>
             <!--2-->
 
+     
+            <!--2-->
             <div class="col-md-2 col-xs-6 images">
+                    <a href="pngs/aboutpics/updated_pics/bottom1.jpg" data-lightbox = "cutGallery"><img src="pngs/aboutpics/updated_pics/bottom1.jpg" class="img-responsive"></a>
+                </div>
 
-                <a href="pngs/aboutpics/b4.png" data-lightbox = "cutGallery"><img src="pngs/aboutpics/b4.png" class="img-responsive"></a>
-            </div>
             <!--2-->
-
             <div class="col-md-2 col-xs-6 images">
-
-                <a href="pngs/aboutpics/b5.png" data-lightbox = "cutGallery"><img src="pngs/aboutpics/b5.png" class="img-responsive"></a>
+                    <a href="pngs/aboutpics/updated_pics/top6.jpg" data-lightbox = "cutGallery"><img src="pngs/aboutpics/updated_pics/top6.jpg" class="img-responsive"></a>
             </div>
-            <!--2-->
-
-            <div class="col-md-2 col-xs-6 images">
-
-                <a href="pngs/aboutpics/b6.png" data-lightbox = "mygallery"><img src="pngs/aboutpics/b6.png" class="img-responsive"></a>
-            </div>
-            <!--2-->
         </div>
         <!--row-->
     </section>
@@ -222,12 +289,11 @@
                 <h1> The Best In the West </h1>
             </div>
         </div>
-
+        <div class="col-md-3 col-xs-6 nopadding bg-warning nopad barbers">
+            <img src="psd files/barbers/finished/barber4.jpg" class="img-responsive">
+            <p class="barberName">Jesse</p>
+        </div>
         <div class="row">
-            <div class="col-md-3 col-xs-6 nopadding bg-warning nopad barbers">
-                <img src="psd files/barbers/finished/anthony.jpg" class="img-responsive">
-                <p class="barberName">Anthony</p>
-            </div>
             <div class="col-md-3 col-xs-6 nopadding bg-warning nopad barbers">
                 <img src="psd files/barbers/finished/barber2.jpg" class="img-responsive">
                 <p class="barberName">Phil</p>
@@ -237,16 +303,8 @@
                 <p class="barberName">Alain</p>
             </div>
             <div class="col-md-3 col-xs-6 nopadding bg-warning nopad barbers">
-                <img src="psd files/barbers/finished/maiTai.jpg" class="img-responsive">
-                <p class="barberName">Mai Tai</p>
-            </div>
-            <div class="col-md-3 col-xs-6 nopadding bg-warning nopad barbers">
                 <img src="psd files/barbers/finished/carlos.jpg" class="img-responsive">
                 <p class="barberName">Carlos</p>
-            </div>
-            <div class="col-md-3 col-xs-6 nopadding bg-warning nopad barbers">
-                <img src="psd files/barbers/finished/barber4.jpg" class="img-responsive">
-                <p class="barberName">Jesse</p>
             </div>
             <div class="col-md-3 col-xs-6 nopadding bg-warning nopad barbers">
                 <img src="psd files/barbers/finished/barber7.jpg" class="img-responsive">
@@ -254,7 +312,15 @@
             </div>
             <div class="col-md-3 col-xs-6 nopadding bg-warning nopad barbers">
                 <img src="psd files/barbers/finished/barber8.jpg" class="img-responsive">
-                <p class="barberName">Noah</p>
+                <p class="barberName">Jonah</p>
+            </div>
+            <div class="col-md-3 col-xs-6 nopadding bg-warning nopad barbers">
+                <img src="psd files/barbers/finished/anthony.jpg" class="img-responsive">
+                <p class="barberName">Anthony</p>
+            </div>
+            <div class="col-md-3 col-xs-6 nopadding bg-warning nopad barbers">
+                <img src="psd files/barbers/finished/maiTai.jpg" class="img-responsive">
+                <p class="barberName">Mai Tai</p>
             </div>
 
         </div>
@@ -426,12 +492,20 @@
     <section class="container pages" >
 
             <!--<p>pricing</p>-->
+            <div class="row pricing"> 
 
-            <div class="col-sm-12 onethird fifthhead shopHead">
-                <h1>Shop</h1>
-                <p>Ask us about our gear when you visit us!</p>
+                <div class="col-sm-12 onethird fifthhead shopHead">
+                    <h1>Street Wear</h1>
+                </div>
             </div>
-            <div class="shop"></div>
+            <aside class="shop-grid">
+                <img src="psd files/shop/gold-hoodie.jpg" alt="gold hoodie" class="shop-pics"/>
+                <img src="psd files/shop/hoodie-and-hat.jpg" alt="gold hoodie" class="shop-pics"/>
+                <img src="psd files/shop/black-hoodie.jpg" alt="gold hoodie" class="shop-pics"/>
+                <img src="psd files/shop/camo.jpg" alt="gold hoodie" class="shop-pics"/>
+
+
+            </aside>
         <!--row-->
 
     </section>
@@ -445,18 +519,17 @@
 
     <!---------------------------END--------------------------->
 
-    <!-- <div class="container pages" id="page6">
+    <div class="container pages" id="page6">
         <div class="row goood">
-            <div class="col-lg-12" id="typo">
+            <div class="" id="typo">
                 <img src="pngs/looksgood2.png" class="img-responsive">
 
 
             </div>
         </div>
-    </div> -->
+    </div>
     <!-- <div class="container pages goood" id="page6">
                 <img src="pngs/looksgood2.png" class="img-responsive goodPic">
-            col-lg-12
     </div> -->
     <!---------------------------NEW FOOTER--------------------------->
 
@@ -500,32 +573,42 @@
 
     });
 
-    function initMap() {
-        var map;
-        const barbershop = { lat: 45.498607, lng: -122.43122 }
-        var map = new google.maps.Map(
-      document.getElementById('map'), {zoom: 15, center: barbershop});
-        // map = new google.maps.Map(document.getElementById('map'), {
-        //     center: { lat: 45.536639, lng: -122.421636 },
-        //     zoom: 8
-        // });
-        var marker = new google.maps.Marker({position: barbershop, map: map});
+    $(document).ready(function() {
+        var btn = $(".button");
+        btn.click(function() {
+            btn.toggleClass("paused");
+            return false;
+        });
+    });
+
+//     function initMap() {
+//         var map;
+//         const barbershop = { lat: 45.498607, lng: -122.43122 }
+//         var map = new google.maps.Map(
+//       document.getElementById('map'), {zoom: 15, center: barbershop});
+//         // map = new google.maps.Map(document.getElementById('map'), {
+//         //     center: { lat: 45.536639, lng: -122.421636 },
+//         //     zoom: 8
+//         // });
+//         var marker = new google.maps.Marker({position: barbershop, map: map});
+//         }
+
+// //         var marker = new google.maps.Marker({
+// //     position: myLatLng,
+// //     map: map,
+// //     title: 'Hello World!'
+// //   });
+    
 
 
-//         var marker = new google.maps.Marker({
-//     position: myLatLng,
-//     map: map,
-//     title: 'Hello World!'
-//   });
-    }
-
-
-</script>
+// </script>
 
 
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<script src="script.js"></script>
-<script src="./scripts/map.js"></script>
+<!-- <script src="script.js"></script> -->
+<!-- <script type="text/javascript" src="./scripts/audio.js"></script> -->
+
+<!-- <script src="./scripts/map.js"></script> -->
 
 </html>
