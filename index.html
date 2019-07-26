@@ -39,24 +39,13 @@
             margin: auto;
             margin-top: 20%;
         }
-        .play{
-            font-size: 2rem;
-            text-align: center;
-            color: white;
-            background: red;
-            width: 50px;
-            height: 50px;
-            position: absolute;
-            bottom: 0;
-            right: 0;
-            
-        }
+   
 
         #audio{
             display: none;
         }
         
-        .button {
+        .audio-button {
             border: 0;
             background: transparent;
             box-sizing: border-box;
@@ -72,21 +61,21 @@
 
         }
 
-        .button.paused {
+        .audio-button.paused {
             cursor: pointer;
             border-style: solid;
             border-width: 37px 0 37px 60px;
         }
 
-        .button:focus {
+        .audio-button:focus {
             outline: none;
         }
 
-        .button:hover {
+        .audio-button:hover {
             border-color: transparent transparent transparent #d8bf89;
         }
         @media screen and (min-width: 992px) {
-            .button{
+            .audio-button{
                 margin-right: 65%;
             }
         }
@@ -152,7 +141,7 @@
         <!--row-->
         
         <div class="row text-center" id="page1info">
-             <button class="button"></button>
+             <button class="audio-button"></button>
 
             <div class="col-xs-12 col-lg-4 col-md-4 ">
                 <h3><a href="tel:971-444-0642">(971) 444-0642
