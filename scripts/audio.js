@@ -13,22 +13,46 @@ $(document).ready(function() {
 
 
 
-function playAudio() {
-  x.play();
-  
-}
-
-
 window.onload = function() {
   document.getElementById('audio').play();
 };
 
-$('#play').on('click', function() {
+jQuery.fn.clickToggle = function(a, b) {
+  return this.on('click', function(ev) { [b, a][this.$_io ^= 1].call(this, ev); });
+};
+
+$('.button').clickToggle(function(ev) {
   x.pause();
+}, function(ev) {
+  x.play();
 });
 
 
 
+$('.button').on('click', 'toggle', function() {
+  alert('First handler for .toggle() called.');
+}, function() {
+  alert('Second handler for .toggle() called.');
+});
+
+//  $('#button').toggle(function() {
+//   x.pause();
+// }, function() {
+//   x.play();
+// });
+
+
+
+
+// function play_audio(task) {
+//   if(task == 'play'){
+//     $('.my_audio').trigger('play');
+//   }
+//   if(task == 'stop'){
+//     $('.my_audio').trigger('pause');
+//     $('.my_audio').prop('currentTime', 0);
+//   }
+// }
 
 
 
