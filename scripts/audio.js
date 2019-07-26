@@ -1,13 +1,16 @@
 
+
+
 const x = document.getElementById('audio');
 
-// $(document).ready(function() {
-//   var btn = $(".button");
-//   btn.click(function() {
-//     btn.toggleClass("paused");
-//     return false;
-//   });
-// });
+$(document).ready(function() {
+  var btn = $('.button');
+  btn.click(function() {
+    btn.toggleClass('paused');
+    return false;
+  });
+});
+
 
 
 function playAudio() {
@@ -16,13 +19,14 @@ function playAudio() {
 }
 
 
-// window.onload = function() {
-//   document.getElementById('audio').play();
-// };
+window.onload = function() {
+  document.getElementById('audio').play();
+};
 
 $('#play').on('click', function() {
   x.pause();
 });
+
 
 
 
