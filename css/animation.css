@@ -1,16 +1,14 @@
+.logo1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
 .animation-wrapper {
-  // background-color: red;
   display: inline-block;
   position: relative;
   overflow: hidden;
 }
-
-// .animation-wrapper img{
-//   position: absolute;
-//   width: 300px;
-//   top: 100px;
-
-// }
 
 .animation-wrapper:before{
   content: "";
@@ -26,7 +24,7 @@
     rgba(255, 255, 255, 0.1) 55%,
     transparent 100%);
     transform:rotate(-45deg);
-    animation: shine 2.5s infinite ease-out;
+    animation: shine 2s infinite ease-out;
   }
 
 @keyframes shine{
@@ -34,17 +32,13 @@
   10%{left:0%;top:0%;}
   30%{left:25%;top: 25%;}
   70%{left:75%;top: 75%;}
-  100%{left:100%;top:100%;}
-  
+  100%{left:100%;top:100%;} 
 }
 
 .logo-1 {
   width: 100%;
   display: flex;
   justify-content: center;
-
 }
 
-.logo{
-  justify-self: center;
-}
+
