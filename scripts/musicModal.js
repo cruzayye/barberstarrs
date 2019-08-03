@@ -1,12 +1,8 @@
 
 const span = document.getElementsByClassName('close')[0];
-
 const modal = document.getElementById('music-modal');
-
 const yes = document.getElementById('yes-btn');
-
 const no = document.getElementById('no-btn');
-
 const body = document.getElementById('body');
 
 const hideModal = () => {
