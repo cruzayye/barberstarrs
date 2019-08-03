@@ -9,6 +9,10 @@
   align-content: center;
 }
 
+body {
+  overflow: hidden;
+
+}
 .modal-content {
   width: 75vw;
   align-self: center;

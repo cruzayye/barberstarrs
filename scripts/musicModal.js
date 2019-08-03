@@ -7,8 +7,11 @@ const yes = document.getElementById('yes-btn');
 
 const no = document.getElementById('no-btn');
 
+const body = document.getElementById('body');
+
 const hideModal = () => {
   modal.style.display = 'none';
+  body.style.overflow = 'scroll';
 };
 
 const playMusic = () => {
