@@ -13,6 +13,11 @@ body {
   overflow: hidden;
 
 }
+
+#audio{
+  display: none;
+}
+
 .modal-content {
   width: 75vw;
   align-self: center;
