@@ -2,7 +2,7 @@
   width: 100vw;
   height: 100vh;
   z-index: 10000;
-  background-color: red;
+  background-color: rgba(0, 0, 0, .5);;
   position: fixed;
   display: flex;
   justify-content: center;
@@ -10,9 +10,18 @@
 }
 
 .modal-content {
-  width: 50vw;
-  height: 50vh;
+  width: 75vw;
   align-self: center;
+  padding: 2em;
+  background-color: black;
+  
+}
+
+.modal-content p {
+  margin-top: 2em;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .close {
@@ -27,4 +36,26 @@
   color: #000;
   text-decoration: none;
   cursor: pointer;
+}
+
+#modal-img{
+  width: 85%;
+}
+
+.yes-no {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  text-transform: uppercase;
+  color: white;
+  margin-top: 2em;
+
+
+}
+
+.yes-no button {
+  background-color: black;
+  border: solid 1px #d8bf89;
+  // padding: 1em;
+  width: 30%;
 }
