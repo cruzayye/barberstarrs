@@ -1,0 +1,30 @@
+.music-modal {
+  width: 100vw;
+  height: 100vh;
+  z-index: 10000;
+  background-color: red;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.modal-content {
+  width: 50vw;
+  height: 50vh;
+  align-self: center;
+}
+
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
