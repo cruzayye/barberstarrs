@@ -69,3 +69,20 @@ body {
   // padding: 1em;
   width: 30%;
 }
+
+.yes-no button:hover {
+  background-color: #d8bf89;
+}
+
+@media (min-width: 1025px) {
+
+  #modal-img{
+    width: 30%;
+  }
+
+  .modal-content p {
+    font-size: 3rem;
+    margin-top: 1rem;
+  }
+  
+}
