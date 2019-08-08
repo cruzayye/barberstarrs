@@ -26,7 +26,6 @@ $('.barbers').hover(
   }
 );
 
-
 $(document).ready(function() {
   $('.barbers').on('touchstart touchend', function(e) {
     e.preventDefault();
