@@ -15,6 +15,7 @@
     <link href="./css/gallery.css" rel="stylesheet" type="text/css">
     <link href="./css/shop.css" rel="stylesheet" type="text/css">
     <link href="./css/animation.css" rel="stylesheet" type="text/css">
+    <!-- <link href="./css/musicModal.css" rel="stylesheet" type="text/css"> -->
     <link href="https://fonts.googleapis.com/css?family=Anton|Fjalla+One|Lobster" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP"
         crossorigin="anonymous">
@@ -24,93 +25,17 @@
 
 
     <style>
-            #mapContainer {
-                    height: 100%;  
-                }
-                html, body {
-                    height: 100%;
-                    margin: 0;
-                    padding: 0;
-                }
-
-        #map {
-            height: 50%;
-            width: 75%;
-            margin: auto;
-            margin-top: 20%;
-        }
-        .play{
-            font-size: 2rem;
-            text-align: center;
-            color: white;
-            background: red;
-            width: 50px;
-            height: 50px;
-            position: absolute;
-            bottom: 0;
-            right: 0;
-            
-        }
-
-        #audio{
+        audio {
             display: none;
         }
-        
-        .button {
-            border: 0;
-            background: transparent;
-            box-sizing: border-box;
-            width: 0;
-            height: 74px;
-            border-color: transparent transparent transparent #d8bf89;
-            transition: 100ms all ease;
-            z-index: 100;
-            margin-right: 70%;
-            border-style: double;
-            border-width: 0px 0 0px 60px;
-            
 
-        }
-
-        .button.paused {
-            cursor: pointer;
-            border-style: solid;
-            border-width: 37px 0 37px 60px;
-        }
-
-        .button:focus {
-            outline: none;
-        }
-
-        button:hover {
-            border-color: transparent transparent transparent #d8bf89;
-        }
-        /* @media only screen and (min-width: 700px) {
-            .play {
-                bottom: 0;
-                right: ;
-            }
-        } */
-
-
-
-        /* .button:hover {
-            border-color: transparent transparent transparent #404040;
-        } */
-
-
-
-        
-
-  
-
-        
+    
      </style>
 
 
 </head>
 
-<body>
+<body id ="body">
     <nav class="navbar navbar-default">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -136,15 +61,26 @@
             </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
     </nav>
+    <!-- <div id="music-modal" class="music-modal">
 
+        <div class="modal-content">
+          <img src="pngs/logo_gold.png" class="img-responsive logo" id="modal-img">
+          <p>enjoy website with music?</p>
+          <section class="yes-no">
+              <button id="yes-btn">YES</button>
+              <button id="no-btn">NO</button>
+          </section>
+        </div>
+      
+    </div> -->
     <div class="container pages pageone parallax-bg " id="top">
         <div class="row" id="img-row">
             <div class="col-lg-12 logo1">
                 <div class="animation-wrapper">
                 <img src="pngs/logo_gold.png" class="img-responsive logo">
                  </div>
-                <!-- <audio controls id="audio">
-                    <source src="./utils/music/04 X-Faded (Prod. by aPAULo).mp3" type="audio/mpeg">
+                <audio controls id="audio">
+                    <source src="./utils/music/14 Stroker Ace (feat. Mike Patton, Jennifer Charles, Kid Koala & Dan the Automator).m4a" type="audio/mpeg">
                   Your browser does not support the audio element.
                   </audio> -->
             </div>
@@ -153,8 +89,6 @@
         <!--row-->
         
         <div class="row text-center" id="page1info">
-             <button class="button"></button>
-
             <div class="col-xs-12 col-lg-4 col-md-4 ">
                 <h3><a href="tel:971-444-0642">(971) 444-0642
 
@@ -580,34 +514,13 @@
 
     });
 
-//     function initMap() {
-//         var map;
-//         const barbershop = { lat: 45.498607, lng: -122.43122 }
-//         var map = new google.maps.Map(
-//       document.getElementById('map'), {zoom: 15, center: barbershop});
-//         // map = new google.maps.Map(document.getElementById('map'), {
-//         //     center: { lat: 45.536639, lng: -122.421636 },
-//         //     zoom: 8
-//         // });
-//         var marker = new google.maps.Marker({position: barbershop, map: map});
-//         }
 
-// //         var marker = new google.maps.Marker({
-// //     position: myLatLng,
-// //     map: map,
-// //     title: 'Hello World!'
-// //   });
-    
+</script>
 
 
-// </script>
-
-
-<!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <!-- <script src="script.js"></script> -->
-<script type="text/javascript" src="./scripts/audio.js"></script>
-
-<!-- <script src="./scripts/map.js"></script> -->
+<!-- <script type="text/javascript" src="./scripts/audio.js"></script> -->
+<!-- <script type="text/javascript" src="./scripts/musicModal.js"></script> -->
 
 </html>

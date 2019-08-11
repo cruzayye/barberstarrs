@@ -1,0 +1,88 @@
+.music-modal {
+  width: 100vw;
+  height: 100vh;
+  z-index: 10000;
+  background-color: rgba(0, 0, 0, .8);;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+body {
+  overflow: hidden;
+
+}
+
+#audio{
+  display: none;
+}
+
+.modal-content {
+  width: 75vw;
+  align-self: center;
+  padding: 2em;
+  background-color: black;
+  border: 1px solid white;
+  
+}
+
+.modal-content p {
+  margin-top: 2em;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#modal-img{
+  width: 85%;
+}
+
+.yes-no {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  text-transform: uppercase;
+  color: white;
+  margin-top: 2em;
+
+
+}
+
+.yes-no button {
+  background-color: black;
+  border: solid 1px #d8bf89;
+  // padding: 1em;
+  width: 30%;
+}
+
+.yes-no button:hover {
+  background-color: #d8bf89;
+}
+
+@media (min-width: 1025px) {
+
+  #modal-img{
+    width: 30%;
+  }
+
+  .modal-content p {
+    font-size: 3rem;
+    margin-top: 1rem;
+  }
+  
+}

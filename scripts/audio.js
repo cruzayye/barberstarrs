@@ -1,44 +1,25 @@
 
-
-
 const x = document.getElementById('audio');
 
 $(document).ready(function() {
-  var btn = $('.button');
+  var btn = $('.audio-button');
   btn.click(function() {
     btn.toggleClass('paused');
     return false;
   });
 });
 
-
-
-function playAudio() {
-  x.play();
-  
-}
-
-
-window.onload = function() {
-  document.getElementById('audio').play();
+//Play button
+jQuery.fn.clickToggle = function(a, b) {
+  return this.on('click', function(ev) { [b, a][this.$_io ^= 1].call(this, ev); });
 };
 
-$('#play').on('click', function() {
+$('.audio-button').clickToggle(function(ev) {
   x.pause();
+}, function(ev) {
+  x.play();
 });
 
-
-
-
-
-
-
-
-// $(document).on('click', 'a[href^="#"]', function(event){
-//   event.preventDefault();
-	
-//   $('html, body').animate({
-//     scrollTop: $($.attr(this, 'href')).offset().top
-
-//   });
-// });
+window.onload = function() {
+  // document.getElementById('audio').play();
+};
