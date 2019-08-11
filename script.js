@@ -1,9 +1,3 @@
-// JavaScript Document
-
-//parralax scroll effect
-	
-//button scroll
-
 $(document).on('click', 'a[href^="#"]', function(event){
   event.preventDefault();
 	
@@ -13,10 +7,6 @@ $(document).on('click', 'a[href^="#"]', function(event){
   });
 });
 
-// $('.barbers').on('hover', 'div', function() {
-//   $(this).addClass('barberDisplay');
-// });
-
 
 $('.barbers').hover(
   function() {
@@ -25,15 +15,4 @@ $('.barbers').hover(
     $(this).removeClass('barberDisplay');
   }
 );
-
-$(document).ready(function() {
-  $('.barbers').on('touchstart touchend', function(e) {
-    e.preventDefault();
-    $(this).toggleClass('barberDisplay');
-  });
-});
-
-
-
-
 
