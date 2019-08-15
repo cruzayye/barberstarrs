@@ -19,6 +19,6 @@ $('.barbers').hover(
 
 
 window.onload = function() {
-  $('.lds-spinner, .loader').fadeOut();
+  $('.loader').fadeOut();
 };
 
