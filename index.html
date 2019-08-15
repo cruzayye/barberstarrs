@@ -15,7 +15,8 @@
     <link href="./css/gallery.css" rel="stylesheet" type="text/css">
     <link href="./css/shop.css" rel="stylesheet" type="text/css">
     <link href="./css/animation.css" rel="stylesheet" type="text/css">
-    <!-- <link href="./css/musicModal.css" rel="stylesheet" type="text/css"> -->
+    <link href="./css/musicModal.css" rel="stylesheet" type="text/css">
+    <link href="./css/loader.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Anton|Fjalla+One|Lobster" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP"
         crossorigin="anonymous">
@@ -28,14 +29,21 @@
         #audio{
             display: none;
         }
+ 
 
     
+
+
      </style>
 
 
 </head>
 
 <body id ="body">
+    
+<article class="loader">
+    <div class="lds-spinner"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+</article>
     <nav class="navbar navbar-default">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -61,7 +69,7 @@
             </div>
         </div>
     </nav>
-    <!-- <div id="music-modal" class="music-modal">
+    <div id="music-modal" class="music-modal">
 
         <div class="modal-content">
           <img src="pngs/logo_gold.png" class="img-responsive logo" id="modal-img">
@@ -72,7 +80,7 @@
           </section>
         </div>
       
-    </div> -->
+    </div>
     <audio controls id="audio">
             <source src="./utils/music/14 Stroker Ace (feat. Mike Patton, Jennifer Charles, Kid Koala & Dan the Automator).m4a" type="audio/mpeg">
           Your browser does not support the audio element.
@@ -509,6 +517,8 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script>
+
+
     $("#bs-example-navbar-collapse-1").on('click', 'ul', function () {
         $("#bs-example-navbar-collapse-1").toggleClass("in");
 
@@ -521,6 +531,6 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="script.js"></script>
 <!-- <script type="text/javascript" src="./scripts/audio.js"></script> -->
-<!-- <script type="text/javascript" src="./scripts/musicModal.js"></script> -->
+<script type="text/javascript" src="./scripts/musicModal.js"></script>
 
 </html>
