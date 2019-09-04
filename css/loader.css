@@ -1,0 +1,13 @@
+.loader {
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  justify-content: center;
+}
+
+.loader img {
+  width: 40vw;
+  margin-top: 40vh;
+
+}
