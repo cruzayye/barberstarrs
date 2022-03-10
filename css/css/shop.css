@@ -1,0 +1,37 @@
+
+
+body{
+  background-color: black;
+}
+
+.fifthhead p{
+  text-align: center;
+  margin-top: -8%;
+}
+
+.shop-caption {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.shop-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100vw;
+  grid-gap: 2px;
+  background-color: black;
+}
+
+.shop-pics {
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+
+
+  .shop-grid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    width: 80%;
+    margin: auto;
+  }
+}

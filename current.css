@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+
+
 .barberDisplay p{
 	opacity: 1;
 	transition: 1.5s;
@@ -14,8 +16,32 @@
 	z-index: 10;
 	font-weight: bold;
 	opacity: 1;
+	width: 55%;
+	background-color: rgba(5, 5, 5, 0.5);;
+}
+.kshine {
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+	margin: auto;
 	width: 100%;
-	height: 100%;
+	background-color: rgba(5, 5, 5, 0.5);
+	color: hsl(41, 50%, 69%);
+}
+
+.barberName .fa {
+	font-size: .7em;
+	
+}
+
+.barberName a {
+	 font-size: 2rem;
+	 color: hsl(41, 50%, 69%);
+}
+
+.barberName a:hover {
+	text-decoration: none;
+	color: white;
 }
 
 // .barberName:hover, .barberName:active {
@@ -37,9 +63,7 @@
 
 a[href^=tel]{ color:#d8bf89; text-decoration:none;}
 
-.subinfo{
-	margin-top: .2em;
-}
+
 
 
 
@@ -241,7 +265,8 @@ a[href^=tel]{ color:#d8bf89; text-decoration:none;}
 
 
 
-#page1info h3{
+#page1info p{
+	margin-top: 2%;
 	text-align: left;
 	color: #d8bf89;
 	font-family: Fjalla One;
@@ -278,12 +303,12 @@ a[href^=tel]{ color:#d8bf89; text-decoration:none;}
 */
 
 
-	.onethird h1{
+	.onethird p{
 		margin-top: 0;
 		font-size: 3em;
 		padding: 10% 0;
 		font-family: anton;
-	    text-align: center;
+	  text-align: center;
 		color: #b3b3b3;   /*#e7e7e7; #d8bf89; #d2ae7e;*/
 
 		
@@ -380,7 +405,10 @@ a[href^=tel]{ color:#d8bf89; text-decoration:none;}
 		display: none;
 	}
 	
-	#welcome p{
+
+	 
+	 
+	#welcome h1{
 		font-size: 3em;
 		text-align: center;
 		line-height: 1.3em;
@@ -463,6 +491,7 @@ a[href^=tel]{ color:#d8bf89; text-decoration:none;}
 
 .last{
 	border-bottom: none;
+	margin-bottom: 5%;
 }
 
 /********page 5 Oppotunites*****/
@@ -478,17 +507,17 @@ a[href^=tel]{ color:#d8bf89; text-decoration:none;}
  }
 
  
- .benefits,
- {
+ .benefits {
 	 text-transform:uppercase;
  }
  
- .opportunities h1 {
+ .opportunities h4 {
 	 font-size: 2em;
 	 text-align: center;
 	 margin-top: 3%;
 	 text-transform: uppercase;
 	 color: #d8bf89;
+	 font-weight: bold;
 	 
 
 	 
@@ -526,8 +555,7 @@ a[href^=tel]{ color:#d8bf89; text-decoration:none;}
 	 color: #d8bf89;
  }
  
-  .opportunities h2 {
-	 font-size: 1.4em;
+  .opportunities h5 {
 	 text-align: center;
  }
  
@@ -644,9 +672,7 @@ label{
 	color: #d8bf89; 
 }
 
-.copyright{
-	color: #d8bf89;
-}
+
 
 .lilfoot{
 	margin-bottom: 2%;
@@ -678,7 +704,7 @@ label{
 	 
 
 	 /********PAGE2*****/
-	 .onethird h1{
+	 .onethird p{
 		
 		font-size: 5em;
 		padding: 2.5% 0;
@@ -699,7 +725,7 @@ label{
 	
 	
 	
-	#welcome p{
+	#welcome h2{
 		font-size: 4.9em;
 		
 
@@ -742,7 +768,7 @@ label{
  
  /****form****/
  
- .opportunities h1 {
+ .opportunities h4 {
 	 font-size: 2.8em;
 	 text-align: center;
 	
@@ -772,8 +798,7 @@ label{
 	 letter-spacing: 1px;
  }
  
-  .opportunities h2 {
-	 font-size: 1.9em;
+  .opportunities h5 {
 	 text-align: center;
 	 
  }
@@ -861,7 +886,7 @@ textarea{
 	
 	
 }
-	#page1info h3{
+	#page1info p{
 	text-align: center;
 
 	font-size: 2em;
@@ -996,6 +1021,8 @@ textarea{
 	
 }
 
+
+
 @media (min-width: 1200px){
 	
 /****page 3****/	
@@ -1035,7 +1062,7 @@ textarea{
 /****form****/	
 
 
- .opportunities h1 {
+ .opportunities h4 {
 	 font-size: 3em;
 	 text-align: center;
 
@@ -1059,7 +1086,7 @@ textarea{
 	 margin-top: 0;
  }
  
-  .opportunities h2 {
+  .opportunities h5 {
 	 font-size: 1.5em;
 	 text-align: left;
  }
@@ -1106,8 +1133,21 @@ textarea{
 	
 }
 
- 
- 
+.copyright{
+	color: #d8bf89;
+	font-size: 1em;
+}
+
+#street-wear, #workheader {
+	margin-top: 0;
+}
+
+#copyright {
+	margin: 0;
+	padding: 0;
+	font-size: 1em;
+}
+
 
 
 
