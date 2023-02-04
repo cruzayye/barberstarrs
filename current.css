@@ -44,10 +44,7 @@
 	color: white;
 }
 
-// .barberName:hover, .barberName:active {
-// 	opacity: 1;
-// 	transition: 1s;
-// }
+
 
 
 .fa-mobile-alt {
@@ -422,10 +419,6 @@ a[href^=tel]{ color:#d8bf89; text-decoration:none;}
 
 	#memo p{
 		font-size: 1.3em;
-		/*padding-left: 30px;
-		padding-right: 30px;
-		margin-bottom: 1.3em;
-		margin-top: 1em;*/
 		width: 75%;
 		margin: auto;
 		text-align: center;
@@ -695,12 +688,13 @@ label{
 		 padding-top: 10%;
 		
 	 }
+
+	 #memo p{
+		 width: unset;
+		 font-size: .2rem;
+	 }
 	 
-	 	/* .text-center{
-		margin-top: 10%;
-		margin-bottom: 5%;
-	}
-	  */
+
 	 
 
 	 /********PAGE2*****/
@@ -710,14 +704,8 @@ label{
 		padding: 2.5% 0;
 			
 	}
-/* 
-	.nopadding{
-		border: 1px #d8bf89 solid;
-	}
-	 */
-	
-	
 
+	
 	
 	 /********PAGE3*****/
 	
@@ -733,7 +721,6 @@ label{
 		
 	}
 	
-
 	#memo p{
 		font-size: 1.8em;
 	
@@ -1050,11 +1037,9 @@ textarea{
 	
 
 	#memo p{
-		font-size: 1.6em;
+		font-size: 1.2em;
 		margin-top: 50px;
 		margin-bottom: 50px;
-	
-	
 		
 	}
 	
