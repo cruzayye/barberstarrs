@@ -1,5 +1,43 @@
 @charset "UTF-8";
 
+#iframe {
+	border: 1px solid #d8bf89;
+	box-shadow: 0px 0px 10px #150101
+}
+
+#google-location-container {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-image: url(pngs/bg_white_pleather.png);
+    background-size: cover;
+	padding-top: 3%;
+	padding-bottom: 3%;
+
+
+}
+
+#location-header {
+	font-size: 1.5rem;
+	padding: 0 !important;
+}
+
+#location-description {
+	display: block;
+	width: 50%;
+	font-size: 1.2em;
+    font-weight: bold;
+	text-align: center;
+	color: #d8bf89;
+}
+
+.google-location {
+	width: 60vw;
+	height: 40vh;
+}
+
 .barbers:hover .schedule-appt {
 	display: block;
 	opacity: 1;
@@ -699,6 +737,11 @@ label{
 
 
 @media (min-width: 768px){
+
+	.google-location {
+		width: 50vw;
+		height: 50vh;
+	}
 
 	
 	
