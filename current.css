@@ -46,6 +46,7 @@
 .barber-phone {
 	position: absolute;
 	bottom: 0;
+	color: white !important;
 }
 
 .barberDisplay p{
