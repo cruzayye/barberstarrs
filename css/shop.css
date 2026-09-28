@@ -24,6 +24,9 @@ body{
 
 .shop-pics {
   width: 100%;
+  /* the width/height attrs on these <img> tags are an aspect-ratio hint for the
+     browser (prevents layout shift); height:auto stops them being taken literally */
+  height: auto;
 }
 
 @media only screen and (min-width: 600px) {

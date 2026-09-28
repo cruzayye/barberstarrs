@@ -364,9 +364,12 @@ a[href^=tel]{ color:#d8bf89; text-decoration:none;}
 
 }
 
-	.onethird p{
+	.onethird p, .onethird h2{
 		margin-top: 0;
+		margin-bottom: 10px;
 		font-size: 3em;
+		font-weight: normal;
+		line-height: inherit;
 		padding: 10% 0;
 		font-family: anton;
 	  text-align: center;
@@ -543,7 +546,26 @@ a[href^=tel]{ color:#d8bf89; text-decoration:none;}
 	margin-top: 0;
 	margin-bottom: 20px;
 	color: #d8bf89;
-	
+	/* keeps the look of the <h2> this used to be */
+	font-size: 30px;
+	font-weight: 500;
+	line-height: 1.1;
+}
+
+/* service names, formerly <h2> */
+.groupie h3{
+	font-size: 30px;
+	font-weight: 500;
+	line-height: 1.1;
+	margin: 20px 0 10px;
+}
+
+/* signature-service descriptor, formerly <h3> (bumped to 2em at >=768px below) */
+.groupie .service-note{
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 1.1;
+	margin: 20px 0 10px;
 }
 
 .last{
@@ -775,7 +797,7 @@ label{
 	 
 
 	 /********PAGE2*****/
-	 .onethird p{
+	 .onethird p, .onethird h2{
 		
 		font-size: 5em;
 		padding: 2.5% 0;
@@ -808,8 +830,11 @@ label{
 
 	/********PAGE4-PRICING*****/
 
-	.groupie h3{
+	.groupie .service-note{
 	font-size: 2em;
+	font-weight: 500;
+	line-height: 1.1;
+	margin: 20px 0 10px;
 	
 }
 
@@ -1203,7 +1228,7 @@ textarea{
 	font-size: 1em;
 }
 
-#street-wear, #workheader {
+#street-wear, #workheader, #location-heading {
 	margin-top: 0;
 }
 
