@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# Nothing here needs crawling
+Disallow: /css/css/
+
+Sitemap: https://www.barberstarrs.com/sitemap.xml
